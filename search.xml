@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于使用hexo时踩过的坑</title>
-    <url>/archives/71a0fc4c.html</url>
-    <content><![CDATA[<h2 id="Hexo的问题"><a href="#Hexo的问题" class="headerlink" title="Hexo的问题"></a>Hexo的问题</h2><h3 id="插件过期问题"><a href="#插件过期问题" class="headerlink" title="插件过期问题"></a>插件过期问题</h3><h2 id="部署问题"><a href="#部署问题" class="headerlink" title="部署问题"></a>部署问题</h2><h3 id="网站迁移"><a href="#网站迁移" class="headerlink" title="网站迁移"></a>网站迁移</h3>]]></content>
+    <title>使用hexo搭建个人博客</title>
+    <url>/archives/ba7bb759.html</url>
+    <content><![CDATA[<h2 id="安装加载hexo"><a href="#安装加载hexo" class="headerlink" title="安装加载hexo"></a>安装加载hexo</h2><h2 id="主题美化"><a href="#主题美化" class="headerlink" title="主题美化"></a>主题美化</h2><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2>]]></content>
       <categories>
         <category>个人博客</category>
         <category>Hexo博客</category>
@@ -24,6 +24,19 @@
       <tags>
         <tag>影音</tag>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于使用hexo时踩过的坑</title>
+    <url>/archives/71a0fc4c.html</url>
+    <content><![CDATA[<h2 id="Hexo的问题"><a href="#Hexo的问题" class="headerlink" title="Hexo的问题"></a>Hexo的问题</h2><h3 id="插件过期问题"><a href="#插件过期问题" class="headerlink" title="插件过期问题"></a>插件过期问题</h3><h2 id="部署问题"><a href="#部署问题" class="headerlink" title="部署问题"></a>部署问题</h2><h3 id="网站迁移"><a href="#网站迁移" class="headerlink" title="网站迁移"></a>网站迁移</h3>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="https://iambois.com/atom.xml" rel="self"/>
   
   <link href="https://iambois.com/"/>
-  <updated>2021-05-15T12:19:40.562Z</updated>
+  <updated>2021-05-15T12:19:57.422Z</updated>
   <id>https://iambois.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://iambois.com/archives/4bef3a16"/>
     <id>https://iambois.com/archives/4bef3a16</id>
     <published>2021-05-15T20:17:51.000Z</published>
-    <updated>2021-05-15T12:19:40.562Z</updated>
+    <updated>2021-05-15T12:19:57.422Z</updated>
     
     
       
@@ -58,6 +58,35 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Hexo的问题&quot;&gt;&lt;a href=&quot;#Hexo的问题&quot; class=&quot;headerlink&quot; title=&quot;Hexo的问题&quot;&gt;&lt;/a&gt;Hexo的问题&lt;/h2&gt;&lt;h3 id=&quot;插件过期问题&quot;&gt;&lt;a href=&quot;#插件过期问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="个人博客" scheme="https://iambois.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Hexo博客" scheme="https://iambois.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://iambois.com/tags/Hexo/"/>
+    
+    <category term="博客" scheme="https://iambois.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用hexo搭建个人博客</title>
+    <link href="https://iambois.com/archives/ba7bb759"/>
+    <id>https://iambois.com/archives/ba7bb759</id>
+    <published>2021-05-14T21:26:13.000Z</published>
+    <updated>2021-05-15T13:27:22.331Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装加载hexo&quot;&gt;&lt;a href=&quot;#安装加载hexo&quot; class=&quot;headerlink&quot; title=&quot;安装加载hexo&quot;&gt;&lt;/a&gt;安装加载hexo&lt;/h2&gt;&lt;h2 id=&quot;主题美化&quot;&gt;&lt;a href=&quot;#主题美化&quot; class=&quot;headerlink&quot;</summary>
         
       
     
