@@ -6,7 +6,7 @@
   <link href="https://iambois.com/atom.xml" rel="self"/>
   
   <link href="https://iambois.com/"/>
-  <updated>2021-05-15T11:29:13.642Z</updated>
+  <updated>2021-05-15T12:19:40.562Z</updated>
   <id>https://iambois.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>关于我使用hexo时踩过的坑</title>
+    <title>喜欢的视频资源分享</title>
+    <link href="https://iambois.com/archives/4bef3a16"/>
+    <id>https://iambois.com/archives/4bef3a16</id>
+    <published>2021-05-15T20:17:51.000Z</published>
+    <updated>2021-05-15T12:19:40.562Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;电影&quot;&gt;&lt;a href=&quot;#电影&quot; class=&quot;headerlink&quot; title=&quot;电影&quot;&gt;&lt;/a&gt;电影&lt;/h2&gt;&lt;h2 id=&quot;电视剧&quot;&gt;&lt;a href=&quot;#电视剧&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://iambois.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="影音" scheme="https://iambois.com/categories/%E7%94%9F%E6%B4%BB/%E5%BD%B1%E9%9F%B3/"/>
+    
+    
+    <category term="影音" scheme="https://iambois.com/tags/%E5%BD%B1%E9%9F%B3/"/>
+    
+    <category term="分享" scheme="https://iambois.com/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于使用hexo时踩过的坑</title>
     <link href="https://iambois.com/archives/71a0fc4c"/>
     <id>https://iambois.com/archives/71a0fc4c</id>
     <published>2021-05-15T19:25:49.000Z</published>
-    <updated>2021-05-15T11:29:13.642Z</updated>
+    <updated>2021-05-15T12:17:56.752Z</updated>
     
     
       
