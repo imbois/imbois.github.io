@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>观影日志</title>
-    <url>/archives/cf3bca3b.html</url>
-    <content><![CDATA[<h2 id="2021年6月"><a href="#2021年6月" class="headerlink" title="2021年6月"></a>2021年6月</h2><h3 id="6月1日-冰雪奇缘"><a href="#6月1日-冰雪奇缘" class="headerlink" title="6月1日 冰雪奇缘"></a>6月1日 冰雪奇缘</h3>]]></content>
-      <categories>
-        <category>生活</category>
-        <category>影音</category>
-      </categories>
-      <tags>
-        <tag>影音</tag>
-        <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建博客学习记录</title>
     <url>/archives/672c3b43.html</url>
     <content><![CDATA[<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><h3 id="npm换源"><a href="#npm换源" class="headerlink" title="npm换源"></a>npm换源</h3><p>推荐使用换源工具<code>nrm</code></p>
@@ -37,6 +24,19 @@
       <tags>
         <tag>Hexo</tag>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观影日志</title>
+    <url>/archives/cf3bca3b.html</url>
+    <content><![CDATA[<h2 id="2021年6月"><a href="#2021年6月" class="headerlink" title="2021年6月"></a>2021年6月</h2><h3 id="6月1日-冰雪奇缘"><a href="#6月1日-冰雪奇缘" class="headerlink" title="6月1日 冰雪奇缘"></a>6月1日 冰雪奇缘</h3>]]></content>
+      <categories>
+        <category>生活</category>
+        <category>影音</category>
+      </categories>
+      <tags>
+        <tag>影音</tag>
+        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
