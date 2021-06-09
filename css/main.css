@@ -1354,7 +1354,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7a0db0;
+  background: #8b2238;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2890,16 +2890,4 @@ body {
     background-image: url("https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/wpfph.jpg");
     background-size: cover;
   }
-}
-.content-wrap {
-  opacity: 0.9;
-}
-.sidebar {
-  opacity: 0.9;
-}
-.header-inner {
-  background: rgba(255,255,255,0.9);
-}
-.popup {
-  opacity: 0.9;
 }
