@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>观影日志</title>
+    <url>/archives/cf3bca3b.html</url>
+    <content><![CDATA[<p>截至今天，博客已记录电影5部。</p>
+<span id="more"></span>
+
+<h2 id="2021年6月"><a href="#2021年6月" class="headerlink" title="2021年6月"></a>2021年6月</h2><div class="note success">
+            <h3 id="6月1日-冰雪奇缘"><a href="#6月1日-冰雪奇缘" class="headerlink" title="6月1日 冰雪奇缘"></a>6月1日 冰雪奇缘</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/4202982.png" alt="冰雪奇缘"><br>艾莎真的太美了。前面一直以为爱情才是治愈冰冻的办法，看到后面才知道爱还有更多含义，其中就包含亲情。爱有治愈一切的力量，它可以让我们变强大，让我们学着控制自己的能力。很喜欢歌曲《Let It Go》。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月7日-真爱至上"><a href="#6月7日-真爱至上" class="headerlink" title="6月7日 真爱至上"></a>6月7日 真爱至上</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292401.png" alt="真爱至上"><br>每年圣诞节都会自己去重温的电影，温暖又治愈。影片中的人都经历着不同的爱，有亲情、爱情、友情，有婚姻和暗恋。其实我们的生活又何尝不是，生活中到处都是爱，都是爱着我们的人和我们爱的人。珍惜身边的人，拥抱爱。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月8日-情书"><a href="#6月8日-情书" class="headerlink" title="6月8日 情书"></a>6月8日 情书</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292220.png" alt="情书"><br>少年时代单纯的爱情真的太美好了，少年和少女藤井树那种对彼此的感情纯洁而且美丽。成年后的渡边博子对爱人离世的悲伤也随着她和藤井树小姐的信件渐渐消解，终于在呼唤中告别了曾经。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月9日-哈利波特与魔法石"><a href="#6月9日-哈利波特与魔法石" class="headerlink" title="6月9日 哈利波特与魔法石"></a>6月9日 哈利波特与魔法石</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1295038.png" alt="哈利波特与魔法石"><br>哈利波特真的是我的童年啊，小时候在电影频道看。哈利、罗恩和赫敏三人的友谊非常珍贵。魔法石是哈利波特系列的第一部，介绍了哈利的家世和他与伏地魔的第一次交手，主演们这个时候都好年轻啊。再刷发现海德薇好可爱。以后有机会的话，要去取景地看看，要买周边留着收藏。这一系列电影也是我会多次重刷的。</p>
+          </div>
+
+
+<div class="note success">
+            <h3 id="6月10日-爱在黎明破晓前"><a href="#6月10日-爱在黎明破晓前" class="headerlink" title="6月10日 爱在黎明破晓前"></a>6月10日 爱在黎明破晓前</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1296339.png" alt="爱在黎明破晓前"><br>这部电影其实是爱在三部曲中的第一部，三部电影跨度十几年，男女主人公也在这个过程中慢慢变老，对爱情的态度也在慢慢变化。<br>很感人的一段就是在试音房两个人眼神交替关注着对方，那种心中的萌动真的太美好了。火车上的搭讪也是经典，何不去尝试，这样以后便不会后悔。</p>
+          </div>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>影音</category>
+      </categories>
+      <tags>
+        <tag>影音</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建博客学习记录</title>
     <url>/archives/672c3b43.html</url>
     <content><![CDATA[<p>本博客使用hexo+next搭建，基于Github Page，域名解析使用腾讯云。在搭建过程中遇到了一些小小的问题，在此记录解决方法。</p>
@@ -41,40 +77,6 @@
       <tags>
         <tag>C#</tag>
         <tag>WPF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>观影日志</title>
-    <url>/archives/cf3bca3b.html</url>
-    <content><![CDATA[<p>今天是2021年6月9日，截至今天，博客已记录电影4部。</p>
-<span id="more"></span>
-
-<h2 id="2021年6月"><a href="#2021年6月" class="headerlink" title="2021年6月"></a>2021年6月</h2><div class="note success">
-            <h3 id="6月1日-冰雪奇缘"><a href="#6月1日-冰雪奇缘" class="headerlink" title="6月1日 冰雪奇缘"></a>6月1日 冰雪奇缘</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/4202982.png" alt="冰雪奇缘"><br>艾莎真的太美了。前面一直以为爱情才是治愈冰冻的办法，看到后面才知道爱还有更多含义，其中就包含亲情。爱有治愈一切的力量，它可以让我们变强大，让我们学着控制自己的能力。很喜欢歌曲《Let It Go》。</p>
-          </div>
-
-<div class="note success">
-            <h3 id="6月7日-真爱至上"><a href="#6月7日-真爱至上" class="headerlink" title="6月7日 真爱至上"></a>6月7日 真爱至上</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292401.png" alt="真爱至上"><br>每年圣诞节都会自己去重温的电影，温暖又治愈。影片中的人都经历着不同的爱，有亲情、爱情、友情，有婚姻和暗恋。其实我们的生活又何尝不是，生活中到处都是爱，都是爱着我们的人和我们爱的人。珍惜身边的人，拥抱爱。</p>
-          </div>
-
-<div class="note success">
-            <h3 id="6月8日-情书"><a href="#6月8日-情书" class="headerlink" title="6月8日 情书"></a>6月8日 情书</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292220.png" alt="情书"><br>少年时代单纯的爱情真的太美好了，少年和少女藤井树那种对彼此的感情纯洁而且美丽。成年后的渡边博子对爱人离世的悲伤也随着她和藤井树小姐的信件渐渐消解，终于在呼唤中告别了曾经。</p>
-          </div>
-
-<div class="note success">
-            <h3 id="6月9日-哈利波特与魔法石"><a href="#6月9日-哈利波特与魔法石" class="headerlink" title="6月9日 哈利波特与魔法石"></a>6月9日 哈利波特与魔法石</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1295038.png" alt="哈利波特与魔法石"><br>哈利波特真的是我的童年啊，小时候在电影频道看。哈利、罗恩和赫敏三人的友谊非常珍贵。魔法石是哈利波特系列的第一部，介绍了哈利的家世和他与伏地魔的第一次交手，主演们这个时候都好年轻啊。再刷发现海德薇好可爱。以后有机会的话，要去取景地看看，要买周边留着收藏。这一系列电影也是我会多次重刷的。</p>
-          </div>
-
-
-
-]]></content>
-      <categories>
-        <category>生活</category>
-        <category>影音</category>
-      </categories>
-      <tags>
-        <tag>影音</tag>
-        <tag>分享</tag>
       </tags>
   </entry>
 </search>
