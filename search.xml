@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>观影日志</title>
-    <url>/archives/cf3bca3b.html</url>
-    <content><![CDATA[<p>截至今天，博客已记录电影5部。</p>
-<span id="more"></span>
-
-<h2 id="2021年6月"><a href="#2021年6月" class="headerlink" title="2021年6月"></a>2021年6月</h2><div class="note success">
-            <h3 id="6月1日-冰雪奇缘"><a href="#6月1日-冰雪奇缘" class="headerlink" title="6月1日 冰雪奇缘"></a>6月1日 冰雪奇缘</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/4202982.png" alt="冰雪奇缘"><br>艾莎真的太美了。前面一直以为爱情才是治愈冰冻的办法，看到后面才知道爱还有更多含义，其中就包含亲情。爱有治愈一切的力量，它可以让我们变强大，让我们学着控制自己的能力。很喜欢歌曲《Let It Go》。</p>
-          </div>
-
-<div class="note success">
-            <h3 id="6月7日-真爱至上"><a href="#6月7日-真爱至上" class="headerlink" title="6月7日 真爱至上"></a>6月7日 真爱至上</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292401.png" alt="真爱至上"><br>每年圣诞节都会自己去重温的电影，温暖又治愈。影片中的人都经历着不同的爱，有亲情、爱情、友情，有婚姻和暗恋。其实我们的生活又何尝不是，生活中到处都是爱，都是爱着我们的人和我们爱的人。珍惜身边的人，拥抱爱。</p>
-          </div>
-
-<div class="note success">
-            <h3 id="6月8日-情书"><a href="#6月8日-情书" class="headerlink" title="6月8日 情书"></a>6月8日 情书</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292220.png" alt="情书"><br>少年时代单纯的爱情真的太美好了，少年和少女藤井树那种对彼此的感情纯洁而且美丽。成年后的渡边博子对爱人离世的悲伤也随着她和藤井树小姐的信件渐渐消解，终于在呼唤中告别了曾经。</p>
-          </div>
-
-<div class="note success">
-            <h3 id="6月9日-哈利波特与魔法石"><a href="#6月9日-哈利波特与魔法石" class="headerlink" title="6月9日 哈利波特与魔法石"></a>6月9日 哈利波特与魔法石</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1295038.png" alt="哈利波特与魔法石"><br>哈利波特真的是我的童年啊，小时候在电影频道看。哈利、罗恩和赫敏三人的友谊非常珍贵。魔法石是哈利波特系列的第一部，介绍了哈利的家世和他与伏地魔的第一次交手，主演们这个时候都好年轻啊。再刷发现海德薇好可爱。以后有机会的话，要去取景地看看，要买周边留着收藏。这一系列电影也是我会多次重刷的。</p>
-          </div>
-
-
-<div class="note success">
-            <h3 id="6月10日-爱在黎明破晓前"><a href="#6月10日-爱在黎明破晓前" class="headerlink" title="6月10日 爱在黎明破晓前"></a>6月10日 爱在黎明破晓前</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1296339.png" alt="爱在黎明破晓前"><br>这部电影其实是爱在三部曲中的第一部，三部电影跨度十几年，男女主人公也在这个过程中慢慢变老，对爱情的态度也在慢慢变化。<br>很感人的一段就是在试音房两个人眼神交替关注着对方，那种心中的萌动真的太美好了。火车上的搭讪也是经典，何不去尝试，这样以后便不会后悔。</p>
-          </div>
-]]></content>
+    <title>无人机群网络管理系统设计与实现</title>
+    <url>/archives/5ba81285.html</url>
+    <content><![CDATA[<h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了</p>
+<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><h3 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h3>]]></content>
       <categories>
-        <category>生活</category>
-        <category>影音</category>
+        <category>项目</category>
+        <category>C#</category>
       </categories>
       <tags>
-        <tag>影音</tag>
-        <tag>分享</tag>
+        <tag>C#</tag>
+        <tag>WPF</tag>
       </tags>
   </entry>
   <entry>
@@ -66,17 +44,62 @@
       </tags>
   </entry>
   <entry>
-    <title>无人机群网络管理系统设计与实现</title>
-    <url>/archives/5ba81285.html</url>
-    <content><![CDATA[<h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了</p>
-<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><h3 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h3>]]></content>
+    <title>观影日志</title>
+    <url>/archives/cf3bca3b.html</url>
+    <content><![CDATA[<p>截至今天，博客已记录电影10部，电视剧1部。</p>
+<span id="more"></span>
+
+<h2 id="2021年6月"><a href="#2021年6月" class="headerlink" title="2021年6月"></a>2021年6月</h2><div class="note success">
+            <h3 id="6月1日-冰雪奇缘"><a href="#6月1日-冰雪奇缘" class="headerlink" title="6月1日 冰雪奇缘"></a>6月1日 冰雪奇缘</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/4202982.png" alt="冰雪奇缘"><br>艾莎真的太美了。前面一直以为爱情才是治愈冰冻的办法，看到后面才知道爱还有更多含义，其中就包含亲情。爱有治愈一切的力量，它可以让我们变强大，让我们学着控制自己的能力。很喜欢歌曲《Let It Go》。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月7日-真爱至上"><a href="#6月7日-真爱至上" class="headerlink" title="6月7日 真爱至上"></a>6月7日 真爱至上</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292401.png" alt="真爱至上"><br>每年圣诞节都会自己去重温的电影，温暖又治愈。影片中的人都经历着不同的爱，有亲情、爱情、友情，有婚姻和暗恋。其实我们的生活又何尝不是，生活中到处都是爱，都是爱着我们的人和我们爱的人。珍惜身边的人，拥抱爱。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月8日-情书"><a href="#6月8日-情书" class="headerlink" title="6月8日 情书"></a>6月8日 情书</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1292220.png" alt="情书"><br>少年时代单纯的爱情真的太美好了，少年和少女藤井树那种对彼此的感情纯洁而且美丽。成年后的渡边博子对爱人离世的悲伤也随着她和藤井树小姐的信件渐渐消解，终于在呼唤中告别了曾经。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月9日-哈利波特与魔法石"><a href="#6月9日-哈利波特与魔法石" class="headerlink" title="6月9日 哈利波特与魔法石"></a>6月9日 哈利波特与魔法石</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1295038.png" alt="哈利波特与魔法石"><br>哈利波特真的是我的童年啊，小时候在电影频道看。哈利、罗恩和赫敏三人的友谊非常珍贵。魔法石是哈利波特系列的第一部，介绍了哈利的家世和他与伏地魔的第一次交手，主演们这个时候都好年轻啊。再刷发现海德薇好可爱。以后有机会的话，要去取景地看看，要买周边留着收藏。这一系列电影也是我会多次重刷的。</p>
+          </div>
+
+
+<div class="note success">
+            <h3 id="6月10日-爱在黎明破晓前"><a href="#6月10日-爱在黎明破晓前" class="headerlink" title="6月10日 爱在黎明破晓前"></a>6月10日 爱在黎明破晓前</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1296339.png" alt="爱在黎明破晓前"><br>这部电影其实是爱在三部曲中的第一部，三部电影跨度十几年，男女主人公也在这个过程中慢慢变老，对爱情的态度也在慢慢变化。<br>很感人的一段就是在试音房两个人眼神交替关注着对方，那种心中的萌动真的太美好了。火车上的搭讪也是经典，何不去尝试，这样以后便不会后悔。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月14日-机智医生生活"><a href="#6月14日-机智医生生活" class="headerlink" title="6月14日 机智医生生活"></a>6月14日 机智医生生活</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/33464863.png" alt="机智医生生活"><br>这五个人的友情真的太好了，很感动这种亲密好友之间的友谊。所幸我的人生中也有这种友谊。前几年第一次看请回答1988的时候，也被里面的友谊打动。现在看来，那是少年时期的美好，机智医生里面的友谊是成年人的友谊，多了很多成熟和生活。第一次看这部剧是在20年居家隔离的时候，那时候就深深入迷，比较遗憾的事情是自己没有去学医学，去治病救人。错过了两次学医的机会，一次高考，一次保研。错过就错过吧，往事已不可追悔，就这样去努力吧，去好好生活，珍惜身边的朋友，身边的一切美好。爱生活，爱自己，爱朋友。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月18日-崖上的波妞"><a href="#6月18日-崖上的波妞" class="headerlink" title="6月18日 崖上的波妞"></a>6月18日 崖上的波妞</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1959877.png" alt="崖上的波妞"><br>小孩子之间的感情真好啊。波妞好可爱。看完电影，印象最深的，就是那句：波妞喜欢宗介。电影想表达的，大概是：爱情无关乎年龄也无关乎外在，爱是值得抛弃一切去付出的美好东西。细思极恐的一点是，如果宗介不再爱波妞，她就会变成泡沫，可能爱情就是这样，对的人收获喜悦，爱错人就会受伤。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月19日-谍影重重"><a href="#6月19日-谍影重重" class="headerlink" title="6月19日 谍影重重"></a>6月19日 谍影重重</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/1304102.png" alt="谍影重重"><br>谍影重重系列是我最喜欢的间谍系列电影了，007和碟中谍其实我都不太来电。这个系列最开始接触时童年时期看电影频道，小时候喜欢幻想自己以后也会过上这种惊险刺激的生活。马特达蒙好帅，重刷的时候发现饰演伯恩同事的那个妹子好好看。后面争取把其余的补全。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="6月20日-王牌特工：特工学院"><a href="#6月20日-王牌特工：特工学院" class="headerlink" title="6月20日 王牌特工：特工学院"></a>6月20日 王牌特工：特工学院</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/24405378.png" alt="特工学院"><br>之前是从爱奇艺看的，有删减。今天又找了一下资源，看来删掉的部分，也挺有意思。这部电影当个喜剧看还是不错的，科技感十足，但是不能深究其科学原理。比较打动我的是那种英式绅士风度，希望自己以后也会成为有涵养，有礼节的人。ps:瘦下来有钱以后一定去定制西装。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="7月9日-中国医生"><a href="#7月9日-中国医生" class="headerlink" title="7月9日 中国医生"></a>7月9日 中国医生</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/35087699.png" alt="中国医生"><br>怎么说呢，很久之前就期待这个电影了，但是看的时候不算达到自己的期望吧。中规中矩的一部献礼片，没有很多槽点和很多闪光点。作为亲历过那段时间的一个普通人而言，代入感很强。电影在一定程度上美化了当时的现实情况，实际上那段时间真的太苦了，医护工作者苦，老百姓也苦。对于想要了解这段过去的人，我更推荐去看纪录片，电影的改编还是挺多的。</p>
+          </div>
+
+<div class="note success">
+            <h3 id="7月14日-黑寡妇"><a href="#7月14日-黑寡妇" class="headerlink" title="7月14日 黑寡妇"></a>7月14日 黑寡妇</h3><p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/movie/25828589.png" alt="黑寡妇"><br>上周下了以后没字幕，看不下去。今天不想学习，就又翻出来看了一下。感觉没知乎上那么人说的不咋滴啊，我挺喜欢的，可能是因为我是一个假漫威迷。寡姐真的太好看了，又是想拜倒在她面前的一天。是挺有意思的一个商业电影了吧，就是有一点，好像剧情都不能给我留下特别深的印象，没有特别触动的点。感觉两个小时的电影好快，讲了很多事情。还是很推荐的。</p>
+          </div>]]></content>
       <categories>
-        <category>项目</category>
-        <category>C#</category>
+        <category>生活</category>
+        <category>影音</category>
       </categories>
       <tags>
-        <tag>C#</tag>
-        <tag>WPF</tag>
+        <tag>影音</tag>
+        <tag>分享</tag>
       </tags>
   </entry>
 </search>
