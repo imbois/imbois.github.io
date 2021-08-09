@@ -1354,7 +1354,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a3cdff;
+  background: #fbffe3;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2878,18 +2878,12 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/wpfpc.jpg");
+  background: url("https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
   opacity: 0.8;
-}
-@media (max-width: 767px) {
-  body {
-    background-image: url("https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/wpfph.jpg");
-    background-size: cover;
-  }
 }
 .headband {
   display: none;
