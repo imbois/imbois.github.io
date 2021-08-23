@@ -32,7 +32,7 @@
 <meta property="og:description" content="关于这个项目此项目为我本科阶段的毕业设计，主要内容是设计实现了">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-06-06T00:17:09.000Z">
-<meta property="article:modified_time" content="2021-08-09T03:32:00.645Z">
+<meta property="article:modified_time" content="2021-08-23T09:21:15.858Z">
 <meta property="article:author" content="bois">
 <meta property="article:tag" content="C#">
 <meta property="article:tag" content="WPF">
@@ -240,7 +240,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-09 03:32:00" itemprop="dateModified" datetime="2021-08-09T03:32:00Z">2021-08-09</time>
+                <time title="修改时间：2021-08-23 09:21:15" itemprop="dateModified" datetime="2021-08-23T09:21:15Z">2021-08-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -263,18 +263,13 @@
               </span>
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
-            </span>
-    <span class="post-meta-divider">|</span>
-    <i class="fa fa-thumb-tack"></i>
-    <font color=7D26CD>置顶</font>
-    <span class="post-meta-divider">|</span>
-<br>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>43</span>
+              <span>777</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -296,7 +291,12 @@
         <h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了</p>
 <span id="more"></span>
 
-<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><h3 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h3><div class="pdfobject-container" data-target="https://cdn.jsdelivr.net/gh/imbois/Design-and-Implementation-of-UAV-Group-Network-Management-System/Paper/Design-and-Implementation-of-UAV-Group-Network-Management-System.pdf" data-height="500px"></div>
+<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><p>本设计立足于解决无人机群应用时对于内部网络连接状态的监控，并可以实现实时监视无人机位置和姿态，同时还可以对单个无人机的网络信息进行设置。<br>本文开篇先介绍了关于无人机管理系统以及无人机网络的国内外研究现状，分析了相关发展趋势。然后简单介绍了无人机群网络管理系统开发时所涉及的相关技术和开发环境，本设计主要基于<code>WPF</code>（Windows 呈现基础），包括用于界面设计的<code>XAML </code>语言，用于实现后台逻辑的<code>C# </code>语言。数据库存储使用了<code>SQLite</code>。<br>文章的重点在于各个功能的设计实现上，主要包括：通过<code>GMap.NET</code> 技术加载电子地图，展现无人机群内各无人机的实时位置，进一步实现了无人机历史飞行轨迹绘制；通过在<code>WPF</code> 的<code>Canvas</code> 绘制二次贝塞尔曲线展示集群内无人机之间的网络拓扑；通过<code>Material Design In XAML </code>控件库，使得无人机网络设置信息展示更加美观，当用户更改设置后，信息将借由<code>Socket</code> 类发送给后台服务器以更新无人机设置；无人机飞行姿态的展示是通过虚拟仪表盘实现的，虚拟仪表盘展示了无人机的偏航角、俯仰角、滚动角和海拔；无人机历史飞行轨迹和姿态的展示，调用了数据库内存储的历史飞行信息，同时展示电子地图上的轨迹和实时姿态。<br>最后，通过对系统各模块的单独测试和系统整体调试，验证了系统设计的可行性和可靠性，满足了系统设计的需求，实现了预期效果。</p>
+<h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/imbois/Design-and-Implementation-of-UAV-Group-Network-Management-System">Design-and-Implementation-of-UAV-Group-Network-Management-System</a></p>
+<blockquote>
+<p>这是我第一次自己动手写项目，虽然很简单，很粗糙，不过在完成项目的过程中还是学到很多。感谢很多博客作者和开源项目作者，本项目的完成很大程度上借鉴了他们的成果，写项目的时候忘记统计参考链接了，故未展现相关的链接。</p>
+</blockquote>
+
     </div>
 
     
@@ -425,7 +425,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">关于这个项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E6%80%9D%E8%B7%AF"><span class="nav-number">2.</span> <span class="nav-text">主要思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80"><span class="nav-number">3.</span> <span class="nav-text">项目地址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">3.1.</span> <span class="nav-text">代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BA%E6%96%87"><span class="nav-number">3.2.</span> <span class="nav-text">论文</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">关于这个项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E6%80%9D%E8%B7%AF"><span class="nav-number">2.</span> <span class="nav-text">主要思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80"><span class="nav-number">3.</span> <span class="nav-text">项目地址</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -762,7 +762,7 @@ if(canvas.getContext){
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">3k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
