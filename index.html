@@ -319,7 +319,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-25 03:20:10" itemprop="dateModified" datetime="2021-08-25T03:20:10Z">2021-08-25</time>
+                <time title="修改时间：2021-08-25 04:21:11" itemprop="dateModified" datetime="2021-08-25T04:21:11Z">2021-08-25</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -341,14 +341,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.5k</span>
+              <span>2.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -360,19 +360,17 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h2><h3 id="2-1-线性表的定义和基本操作"><a href="#2-1-线性表的定义和基本操作" class="headerlink" title="2.1 线性表的定义和基本操作"></a>2.1 线性表的定义和基本操作</h3><h4 id="2-1-2-线性表的基本操作"><a href="#2-1-2-线性表的基本操作" class="headerlink" title="2.1.2 线性表的基本操作"></a>2.1.2 线性表的基本操作</h4><p><code>InitList(&amp;L)</code>：初始化表。构造一个空的线性表。<br><code>Length(L)</code>：求表长。返回线性表L的长度，即L中数据元素的个数。<br><code>LocateElem(L,e)</code>：按值查找操作。在表L中查找具有给定关键字值的元素。<br><code>GetElem(L,i)</code>：按位查找操作。获取表L中第i个位置的元素的值。<br><code>ListInsert(&amp;L,i,e)</code>：插入操作。在表L中的第i个位置上插入指定元素e。<br><code>ListDelete(&amp;L,i,&amp;e)</code>：删除操作。删除表L中第i个位置的元素，并用e返回删除元素的值。<br><code>PrintList(L)</code>：输出操作。按前后顺序输出线性表L的所有元素值。<br><code>Empty(L)</code>：判空操作。若L为空表，则返回true，否则返回false。<br><code>DestroyList(&amp;L)</code>：销毁操作。销毁线性表，并释放线性表L所占用的内存空间。</p>
-<blockquote>
-<p>“&amp;”表示C++语言中的引用调用，在C语言中采用指针也可达到同样的效果。</p>
+          <blockquote>
+<p>本文记录王道数据结构各章知识点部分的代码</p>
 </blockquote>
-<h3 id="2-2-线性表的顺序表示"><a href="#2-2-线性表的顺序表示" class="headerlink" title="2.2 线性表的顺序表示"></a>2.2 线性表的顺序表示</h3><h4 id="2-2-1-顺序表的定义"><a href="#2-2-1-顺序表的定义" class="headerlink" title="2.2.1 顺序表的定义"></a>2.2.1 顺序表的定义</h4><p>假定线性表的元素类型为ElemType，则线性表的顺序存储类型描述为：<br>a.静态分配</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#define MaxSize 50              &#x2F;&#x2F;定义线性表的最大长度</span><br><span class="line">typedef struct&#123;</span><br><span class="line">  ElemType data[MaxSize];       &#x2F;&#x2F;顺序表的元素</span><br><span class="line">  int length;                   &#x2F;&#x2F;顺序表的当前长度</span><br><span class="line">&#125;SqList;                        &#x2F;&#x2F;顺序表的类型定义</span><br></pre></td></tr></table></figure>
-<p>b.动态分配</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#define InitSize 100            &#x2F;&#x2F;表长度的初始定义</span><br><span class="line">typedef struct&#123;     </span><br><span class="line">  ElemType *data;               &#x2F;&#x2F;指示动态分配数组的指针</span><br><span class="line">  int MaxSize,length;           &#x2F;&#x2F;数组的最大容量和当前个数</span><br><span class="line">&#125; SeqList;                      &#x2F;&#x2F;动态分配数组顺序表的类型定义</span><br></pre></td></tr></table></figure>
-<p>C的初始动态分配语句为：<br><code>L.data = (ElemType *)malloc(sizeof(ElemType)*InitSize);</code><br>C++的初始动态分配语句为：<br><code>L.data = new ElemType[InitSize];</code></p>
-<h4 id="2-2-2-顺序表上基本操作的实现"><a href="#2-2-2-顺序表上基本操作的实现" class="headerlink" title="2.2.2 顺序表上基本操作的实现"></a>2.2.2 顺序表上基本操作的实现</h4><p>(1)插入操作<br>在顺序表L的第i(1&lt;=i&lt;=L.length+1)个位置插入新元素e。时间复杂度为O(n)。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">bool ListInsert(SqList &amp;L, int i, ElemType e) &#123;</span><br><span class="line">  if(i &lt; 1 || i &gt; L.length+1)             &#x2F;&#x2F;判断i的范围是否有效</span><br><span class="line">	  return false;</span><br><span class="line">  if(L.length &gt;&#x3D; MaxSize)                 &#x2F;&#x2F;当前存储空间已满，不能插入</span><br><span class="line">	  return false;</span><br><span class="line">  for(int j &#x3D; L.length; j &gt;&#x3D;i; j--)       &#x2F;&#x2F;将第i个元素及之后的元素后移</span><br><span class="line">	  L.data[j] &#x3D; L.data[j-1];</span><br><span class="line">  L.data[i-1] &#x3D; e;                        &#x2F;&#x2F;在位置i处放入e</span><br><span class="line">  L.length++;                             &#x2F;&#x2F;线性表长度加1</span><br><span class="line">  return true;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>(2)删除操作<br>删除顺序表L中第i(1&lt;=i&lt;=L.length)个位置的元素，用引用变量e返回。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/archives/e63b79ef#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1174,13 +1172,13 @@ if(canvas.getContext){
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">5k</span>
+    <span title="站点总字数">6k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">5 分钟</span>
+    <span title="站点阅读时长">6 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
