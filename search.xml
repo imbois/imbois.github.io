@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>搭建博客学习记录</title>
+    <url>/archives/672c3b43.html</url>
+    <content><![CDATA[<p>本博客使用hexo+next搭建，基于Github Page，域名解析使用腾讯云。在搭建过程中遇到了一些小小的问题，在此记录解决方法。</p>
+<span id="more"></span>
+
+<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><h3 id="npm换源"><a href="#npm换源" class="headerlink" title="npm换源"></a>npm换源</h3><p>推荐使用换源工具<code>nrm</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g nrm   </span><br></pre></td></tr></table></figure>
+<p>查看源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm ls</span><br></pre></td></tr></table></figure>
+<p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/post/Snipaste_2021-06-06_00-05-20.png" alt="源列表"><br>添加源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm add 源的名称  https:&#x2F;&#x2F; 地址</span><br></pre></td></tr></table></figure>
+<p>删除源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm del 源的名字</span><br></pre></td></tr></table></figure>
+<p>切换源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm use 源的名字</span><br></pre></td></tr></table></figure>
+<p>测试源速度</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm test</span><br></pre></td></tr></table></figure>
+
+<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><h2 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h2>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无人机群网络管理系统设计与实现</title>
+    <url>/archives/5ba81285.html</url>
+    <content><![CDATA[<h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了一个无人机群网络管理系统，可以监控集群内各无人机的网络连接状态，观察无人机飞行参数，调整各无人机的网络设置信息。</p>
+<span id="more"></span>
+
+<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><p>本设计立足于解决无人机群应用时对于内部网络连接状态的监控，并可以实现实时监视无人机位置和姿态，同时还可以对单个无人机的网络信息进行设置。<br>本文开篇先介绍了关于无人机管理系统以及无人机网络的国内外研究现状，分析了相关发展趋势。然后简单介绍了无人机群网络管理系统开发时所涉及的相关技术和开发环境，本设计主要基于<code>WPF</code>（Windows 呈现基础），包括用于界面设计的<code>XAML </code>语言，用于实现后台逻辑的<code>C# </code>语言。数据库存储使用了<code>SQLite</code>。<br>文章的重点在于各个功能的设计实现上，主要包括：通过<code>GMap.NET</code> 技术加载电子地图，展现无人机群内各无人机的实时位置，进一步实现了无人机历史飞行轨迹绘制；通过在<code>WPF</code> 的<code>Canvas</code> 绘制二次贝塞尔曲线展示集群内无人机之间的网络拓扑；通过<code>Material Design In XAML </code>控件库，使得无人机网络设置信息展示更加美观，当用户更改设置后，信息将借由<code>Socket</code> 类发送给后台服务器以更新无人机设置；无人机飞行姿态的展示是通过虚拟仪表盘实现的，虚拟仪表盘展示了无人机的偏航角、俯仰角、滚动角和海拔；无人机历史飞行轨迹和姿态的展示，调用了数据库内存储的历史飞行信息，同时展示电子地图上的轨迹和实时姿态。<br>最后，通过对系统各模块的单独测试和系统整体调试，验证了系统设计的可行性和可靠性，满足了系统设计的需求，实现了预期效果。</p>
+<h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/imbois/Design-and-Implementation-of-UAV-Group-Network-Management-System">Design-and-Implementation-of-UAV-Group-Network-Management-System</a></p>
+<p>项目地址内<code>Code</code>文件夹是相关代码，<code>Paper</code>文件夹下是项目完成论文。</p>
+<blockquote>
+<p>这是我第一次自己动手写项目，虽然很简单，很粗糙，不过在完成项目的过程中还是学到很多。感谢很多博客作者和开源项目作者，本项目的完成很大程度上借鉴了他们的成果，写项目的时候忘记统计参考链接了，故未展现相关的链接。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>项目</category>
+        <category>C#</category>
+      </categories>
+      <tags>
+        <tag>C#</tag>
+        <tag>WPF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>王道数据结构练习题代码</title>
     <url>/archives/435383c0.html</url>
     <content><![CDATA[<blockquote>
@@ -31,9 +82,36 @@
 <p>本题的算法也可写成三个函数：查找函数、交换后继函数与插入函数。写成三个函数的优点是逻辑清晰、易读。<br><em><strong>No.10</strong></em><br><strong>问题</strong>：设将n(n&gt;1)个整数存放到一维数组R中。设计一个在时间和空间两方面都尽可能高效的算法。将R中保存的序列循环左移p(0 &lt; p &lt; n)个位置，即将R中的数据由(X<sub>0</sub>,X<sub>1</sub>,…,X<sub>n-1</sub>)变换为(X<sub>p</sub>,X<sub>p+1</sub>,…,X<sub>n-1</sub>,X<sub>0</sub>,X<sub>1</sub>,…,X<sub>p-1</sub>)。要求：<br>1）给出算法的基本设计思想。<br>2）根据设计思想，采用C或C++或Java语言描述算法，关键之处给出注释。<br>3）说明你所设计算法的时间复杂度和空间复杂度。<br><strong>解答</strong>：<br>1）算法的基本设计思想：可将这个问题视为把数组ab转换成数组ba（a代表数组的前p个元素，b代表数组中余下的n-p个元素），先将a逆置得到a<sup>-1</sup>b，再将b逆置得到a<sup>-1</sup>b<sup>-1</sup>，最后将整个a<sup>-1</sup>b<sup>-1</sup>逆置得到(a<sup>-1</sup>b<sup>-1</sup>)<sup>-1</sup> = ba。设Reverse函数执行将数组元素逆置的操作，对abcdefgh向左循环移动3（p=3）个位置的过程如下：<br>Reverse(0, p-1)得到cbadefgh；<br>Reverse(p, n-1)得到cbahgfed；<br>Reverse(0, n-1)得到defghabc；<br>注：Reverse中，两个参数分别表示数组中待转换元素的始末位置。<br>2）使用C语言描述算法如下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">void Reverse(int R[], int from, int to) &#123;</span><br><span class="line">  int i, temp;</span><br><span class="line">  for(i &#x3D; 0; i &lt; (to-from+1)&#x2F;2; i++) &#123;</span><br><span class="line">    temp &#x3D; R[from+i];</span><br><span class="line">    R[from+i] &#x3D; R[to-i];</span><br><span class="line">    R[to-i] &#x3D; temp;</span><br><span class="line">  &#125;</span><br><span class="line">&#125; &#x2F;&#x2F;Reverse</span><br><span class="line">void Converse(int R[], int n, int p) &#123;</span><br><span class="line">  Reverse(R, 0, p-1);</span><br><span class="line">  Reverse(R, p, n-1);</span><br><span class="line">  Reverse(R, 0, n-1);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>3）上述算法中三个Reverse函数的时间复杂度分别为O(p/2)、O((n-p)/2)和O(n/2)，故所设计的算法的时间复杂度为O(n)，空间复杂度为O(1)。</p>
-<p><em>另解</em>，借助辅助数组来实现。算法思想：创建大小为p的辅助数组S，将R中前p个整数依次暂存在S中，同时将R中后n-p个整数左移，然后将S中暂存的p个数依次放回到R中的后续单元。时间复杂度为O(n)，空间复杂度为O(p)。<br><em><strong>No.11</strong></em><br><strong>问题</strong>：一个长度为L(L &gt;= 1)的升序序列S，处在第 $$\lceil L/2 \rceil$$ 个位置的数称为S的中位数。例如，若序列S<sub>1</sub> = (11, 13, 15, 17, 19)，则S<sub>1</sub>的中位数是15，两个序列的中位数是含它们所有元素的升序序列的中位数。例如，若S<sub>2</sub> = (2, 4, 6, 8, 20)，则S<sub>1</sub>和S<sub>2</sub>的中位数是11。现在有两个等长升序序列A和B，试设计一个在时间和空间两方面都尽可能高效的算法，找出两个序列A和B的中位数。要求：<br>1）给出算法的基本设计思想。<br>2）根据设计思想，采用C或C++或Java语言描述算法，关键之处给出注释。<br>3）说明你所设计算法的时间复杂度和空间复杂度。</p>
-<p><em><strong>No.12</strong></em><br><strong>问题</strong>：已知一个整数序列A = (a<sub>0</sub>,a<sub>1</sub>,…,a<sub>n-1</sub>)，其中 0 $\leq$ a<sub>i</sub> &lt; n (0 $\leq$ i &lt; n)。若存在a<sub>p1</sub> = a<sub>p2</sub> = … = a<sub>pm</sub> = x 且 m &gt; n/2 (0 $\leq$ p<sub>k</sub> &lt; n , 1 $\leq$ k $\geq$ m)，</p>
+<p><em>另解</em>，借助辅助数组来实现。算法思想：创建大小为p的辅助数组S，将R中前p个整数依次暂存在S中，同时将R中后n-p个整数左移，然后将S中暂存的p个数依次放回到R中的后续单元。时间复杂度为O(n)，空间复杂度为O(p)。<br><em><strong>No.11</strong></em><br><strong>问题</strong>：一个长度为L(L &gt;= 1)的升序序列S，处在第 L/2(向上取整) 个位置的数称为S的中位数。例如，若序列S<sub>1</sub> = (11, 13, 15, 17, 19)，则S<sub>1</sub>的中位数是15，两个序列的中位数是含它们所有元素的升序序列的中位数。例如，若S<sub>2</sub> = (2, 4, 6, 8, 20)，则S<sub>1</sub>和S<sub>2</sub>的中位数是11。现在有两个等长升序序列A和B，试设计一个在时间和空间两方面都尽可能高效的算法，找出两个序列A和B的中位数。要求：<br>1）给出算法的基本设计思想。<br>2）根据设计思想，采用C或C++或Java语言描述算法，关键之处给出注释。<br>3）说明你所设计算法的时间复杂度和空间复杂度。</p>
+<p><em><strong>No.12</strong></em><br><strong>问题</strong>：已知一个整数序列A = (a<sub>0</sub>,a<sub>1</sub>,…,a<sub>n-1</sub>)，其中 0 &lt;= a<sub>i</sub> &lt; n (0 &lt;= i &lt; n)。若存在a<sub>p1</sub> = a<sub>p2</sub> = … = a<sub>pm</sub> = x 且 m &gt; n/2 (0 &lt;= p<sub>k</sub> &lt; n , 1 &lt;= k &lt;= m)，</p>
 ]]></content>
+      <categories>
+        <category>王道论坛</category>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>王道数据结构思维拓展</title>
+    <url>/archives/58b806b9.html</url>
+    <content><![CDATA[<blockquote>
+<p>本文记录我在学习王道考研教材《数据结构考研复习指导》时，所遇到的各章思考题。仅供参考。</p>
+</blockquote>
+<span id="more"></span>
+
+<h3 id="Ch1"><a href="#Ch1" class="headerlink" title="Ch1"></a>Ch1</h3><p><strong>题目</strong><br>求解斐波那契数列<br>$$<br>F(n) = \begin{cases}<br>1,                  &amp; \text{n = 0,1} \\<br>F(n-1) + F(n-2),    &amp; \text{n &gt; 1}<br>\end{cases}<br>$$<br>有两种常用的算法：递归算法和非递归算法。试分别分析两种算法的时间复杂度。（提示：请结合归纳总结中的两种方法进行解答。）</p>
+<p><strong>解答：</strong><br>两种常用算法：<br>1.递归算法，时间复杂度为O(2<sup>n</sup>)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &#x3D;&#x3D; 0)</span><br><span class="line">        return 0;</span><br><span class="line">    else if (n &#x3D;&#x3D; 1)</span><br><span class="line">        return 1;</span><br><span class="line">    else</span><br><span class="line">        return Fibonacci(n - 1) + Fibonacci(n-2);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>2.非递归算法，时间复杂度为O(n)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &lt;&#x3D; 2)</span><br><span class="line">        return 1;</span><br><span class="line">    else &#123;</span><br><span class="line">        long num1 &#x3D; 1;</span><br><span class="line">        long num2 &#x3D; 1;</span><br><span class="line">        for (int i &#x3D; 2;i &lt; n - 1;i++) &#123;</span><br><span class="line">            num2 &#x3D; num1 + num2;</span><br><span class="line">            num1 &#x3D; num2 - num1;</span><br><span class="line">        &#125;</span><br><span class="line">        return num1 + num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>参考博客</strong></p>
+<blockquote>
+<p><a href="https://www.cnblogs.com/abyss1114/p/7272657.html">斐波那契数列两种算法的时间复杂度</a><br><a href="https://www.cnblogs.com/python27/archive/2011/11/25/2261980.html">3种方法求解斐波那契数列</a><br><a href="https://zhuanlan.zhihu.com/p/56444434">三种时间复杂度算法求解斐波那契数列</a></p>
+</blockquote>
+<h3 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h3>]]></content>
       <categories>
         <category>王道论坛</category>
         <category>数据结构</category>
@@ -107,84 +185,6 @@
       <tags>
         <tag>C/C++</tag>
         <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>王道数据结构思维拓展</title>
-    <url>/archives/58b806b9.html</url>
-    <content><![CDATA[<blockquote>
-<p>本文记录我在学习王道考研教材《数据结构考研复习指导》时，所遇到的各章思考题。仅供参考。</p>
-</blockquote>
-<span id="more"></span>
-
-<h3 id="Ch1"><a href="#Ch1" class="headerlink" title="Ch1"></a>Ch1</h3><p><strong>题目</strong><br>求解斐波那契数列<br>$$<br>F(n) = \begin{cases}<br>1,                  &amp; \text{n = 0,1} \\<br>F(n-1) + F(n-2),    &amp; \text{n &gt; 1}<br>\end{cases}<br>$$<br>有两种常用的算法：递归算法和非递归算法。试分别分析两种算法的时间复杂度。（提示：请结合归纳总结中的两种方法进行解答。）</p>
-<p><strong>解答：</strong><br>两种常用算法：<br>1.递归算法，时间复杂度为O(2<sup>n</sup>)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &#x3D;&#x3D; 0)</span><br><span class="line">        return 0;</span><br><span class="line">    else if (n &#x3D;&#x3D; 1)</span><br><span class="line">        return 1;</span><br><span class="line">    else</span><br><span class="line">        return Fibonacci(n - 1) + Fibonacci(n-2);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>2.非递归算法，时间复杂度为O(n)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &lt;&#x3D; 2)</span><br><span class="line">        return 1;</span><br><span class="line">    else &#123;</span><br><span class="line">        long num1 &#x3D; 1;</span><br><span class="line">        long num2 &#x3D; 1;</span><br><span class="line">        for (int i &#x3D; 2;i &lt; n - 1;i++) &#123;</span><br><span class="line">            num2 &#x3D; num1 + num2;</span><br><span class="line">            num1 &#x3D; num2 - num1;</span><br><span class="line">        &#125;</span><br><span class="line">        return num1 + num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>参考博客</strong></p>
-<blockquote>
-<p><a href="https://www.cnblogs.com/abyss1114/p/7272657.html">斐波那契数列两种算法的时间复杂度</a><br><a href="https://www.cnblogs.com/python27/archive/2011/11/25/2261980.html">3种方法求解斐波那契数列</a><br><a href="https://zhuanlan.zhihu.com/p/56444434">三种时间复杂度算法求解斐波那契数列</a></p>
-</blockquote>
-<h3 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h3>]]></content>
-      <categories>
-        <category>王道论坛</category>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无人机群网络管理系统设计与实现</title>
-    <url>/archives/5ba81285.html</url>
-    <content><![CDATA[<h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了一个无人机群网络管理系统，可以监控集群内各无人机的网络连接状态，观察无人机飞行参数，调整各无人机的网络设置信息。</p>
-<span id="more"></span>
-
-<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><p>本设计立足于解决无人机群应用时对于内部网络连接状态的监控，并可以实现实时监视无人机位置和姿态，同时还可以对单个无人机的网络信息进行设置。<br>本文开篇先介绍了关于无人机管理系统以及无人机网络的国内外研究现状，分析了相关发展趋势。然后简单介绍了无人机群网络管理系统开发时所涉及的相关技术和开发环境，本设计主要基于<code>WPF</code>（Windows 呈现基础），包括用于界面设计的<code>XAML </code>语言，用于实现后台逻辑的<code>C# </code>语言。数据库存储使用了<code>SQLite</code>。<br>文章的重点在于各个功能的设计实现上，主要包括：通过<code>GMap.NET</code> 技术加载电子地图，展现无人机群内各无人机的实时位置，进一步实现了无人机历史飞行轨迹绘制；通过在<code>WPF</code> 的<code>Canvas</code> 绘制二次贝塞尔曲线展示集群内无人机之间的网络拓扑；通过<code>Material Design In XAML </code>控件库，使得无人机网络设置信息展示更加美观，当用户更改设置后，信息将借由<code>Socket</code> 类发送给后台服务器以更新无人机设置；无人机飞行姿态的展示是通过虚拟仪表盘实现的，虚拟仪表盘展示了无人机的偏航角、俯仰角、滚动角和海拔；无人机历史飞行轨迹和姿态的展示，调用了数据库内存储的历史飞行信息，同时展示电子地图上的轨迹和实时姿态。<br>最后，通过对系统各模块的单独测试和系统整体调试，验证了系统设计的可行性和可靠性，满足了系统设计的需求，实现了预期效果。</p>
-<h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/imbois/Design-and-Implementation-of-UAV-Group-Network-Management-System">Design-and-Implementation-of-UAV-Group-Network-Management-System</a></p>
-<p>项目地址内<code>Code</code>文件夹是相关代码，<code>Paper</code>文件夹下是项目完成论文。</p>
-<blockquote>
-<p>这是我第一次自己动手写项目，虽然很简单，很粗糙，不过在完成项目的过程中还是学到很多。感谢很多博客作者和开源项目作者，本项目的完成很大程度上借鉴了他们的成果，写项目的时候忘记统计参考链接了，故未展现相关的链接。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>项目</category>
-        <category>C#</category>
-      </categories>
-      <tags>
-        <tag>C#</tag>
-        <tag>WPF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建博客学习记录</title>
-    <url>/archives/672c3b43.html</url>
-    <content><![CDATA[<p>本博客使用hexo+next搭建，基于Github Page，域名解析使用腾讯云。在搭建过程中遇到了一些小小的问题，在此记录解决方法。</p>
-<span id="more"></span>
-
-<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><h3 id="npm换源"><a href="#npm换源" class="headerlink" title="npm换源"></a>npm换源</h3><p>推荐使用换源工具<code>nrm</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g nrm   </span><br></pre></td></tr></table></figure>
-<p>查看源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm ls</span><br></pre></td></tr></table></figure>
-<p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/post/Snipaste_2021-06-06_00-05-20.png" alt="源列表"><br>添加源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm add 源的名称  https:&#x2F;&#x2F; 地址</span><br></pre></td></tr></table></figure>
-<p>删除源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm del 源的名字</span><br></pre></td></tr></table></figure>
-<p>切换源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm use 源的名字</span><br></pre></td></tr></table></figure>
-<p>测试源速度</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm test</span><br></pre></td></tr></table></figure>
-
-<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><h2 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h2>]]></content>
-      <categories>
-        <category>个人博客</category>
-        <category>Hexo博客</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
