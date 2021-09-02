@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://iambois.com/archives/d87f7e0c</loc>
-    
-    <lastmod>2021-09-02</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://iambois.com/tags/</loc>
     
     <lastmod>2021-09-02</lastmod>
@@ -16,14 +9,14 @@
   </url>
   
   <url>
-    <loc>https://iambois.com/links/linklist.json</loc>
+    <loc>https://iambois.com/links/</loc>
     
     <lastmod>2021-09-02</lastmod>
     
   </url>
   
   <url>
-    <loc>https://iambois.com/links/</loc>
+    <loc>https://iambois.com/links/linklist.json</loc>
     
     <lastmod>2021-09-02</lastmod>
     
@@ -58,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://iambois.com/archives/5ba81285</loc>
+    <loc>https://iambois.com/archives/435383c0</loc>
     
     <lastmod>2021-09-02</lastmod>
     
@@ -72,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://iambois.com/archives/435383c0</loc>
+    <loc>https://iambois.com/archives/5ba81285</loc>
     
     <lastmod>2021-09-02</lastmod>
     
