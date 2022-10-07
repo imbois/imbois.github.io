@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>bois的博客</title>
+  
+  <subtitle>从此刻起，生活才刚刚开始</subtitle>
+  <link href="https://iambois.com/atom.xml" rel="self"/>
+  
+  <link href="https://iambois.com/"/>
+  <updated>2022-10-07T08:28:39.936Z</updated>
+  <id>https://iambois.com/</id>
+  
+  <author>
+    <name>bois</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>王道数据结构练习题代码</title>
+    <link href="https://iambois.com/archives/435383c0"/>
+    <id>https://iambois.com/archives/435383c0</id>
+    <published>2021-08-23T17:27:01.000Z</published>
+    <updated>2022-10-07T08:28:39.936Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文记录王道数据结构每小节练习题中的代码&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="王道论坛" scheme="https://iambois.com/categories/%E7%8E%8B%E9%81%93%E8%AE%BA%E5%9D%9B/"/>
+    
+    <category term="数据结构" scheme="https://iambois.com/categories/%E7%8E%8B%E9%81%93%E8%AE%BA%E5%9D%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C/C++" scheme="https://iambois.com/tags/C-C/"/>
+    
+    <category term="考研" scheme="https://iambois.com/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>王道数据结构课本代码</title>
+    <link href="https://iambois.com/archives/e63b79ef"/>
+    <id>https://iambois.com/archives/e63b79ef</id>
+    <published>2021-08-23T17:26:41.000Z</published>
+    <updated>2022-10-07T08:28:39.936Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文记录王道数据结构各章知识点部分的代码&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="王道论坛" scheme="https://iambois.com/categories/%E7%8E%8B%E9%81%93%E8%AE%BA%E5%9D%9B/"/>
+    
+    <category term="数据结构" scheme="https://iambois.com/categories/%E7%8E%8B%E9%81%93%E8%AE%BA%E5%9D%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C/C++" scheme="https://iambois.com/tags/C-C/"/>
+    
+    <category term="考研" scheme="https://iambois.com/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>王道数据结构思维拓展</title>
+    <link href="https://iambois.com/archives/58b806b9"/>
+    <id>https://iambois.com/archives/58b806b9</id>
+    <published>2021-08-23T17:23:16.000Z</published>
+    <updated>2022-10-07T08:28:39.936Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文记录我在学习王道考研教材《数据结构考研复习指导》时，所遇到的各章思考题。仅供参考。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="王道论坛" scheme="https://iambois.com/categories/%E7%8E%8B%E9%81%93%E8%AE%BA%E5%9D%9B/"/>
+    
+    <category term="数据结构" scheme="https://iambois.com/categories/%E7%8E%8B%E9%81%93%E8%AE%BA%E5%9D%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C/C++" scheme="https://iambois.com/tags/C-C/"/>
+    
+    <category term="考研" scheme="https://iambois.com/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无人机群网络管理系统设计与实现</title>
+    <link href="https://iambois.com/archives/5ba81285"/>
+    <id>https://iambois.com/archives/5ba81285</id>
+    <published>2021-06-06T00:17:09.000Z</published>
+    <updated>2022-10-07T08:28:39.935Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;关于这个项目&quot;&gt;&lt;a href=&quot;#关于这个项目&quot; class=&quot;headerlink&quot; title=&quot;关于这个项目&quot;&gt;&lt;/a&gt;关于这个项目&lt;/h2&gt;&lt;p&gt;此项目为我本科阶段的毕业设计，主要内容是设计实现了一个无人机群网络管理系统，可以监控集群内各无人机的网络连接状态，观察无人机飞行参数，调整各无人机的网络设置信息。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="项目" scheme="https://iambois.com/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="C#" scheme="https://iambois.com/categories/%E9%A1%B9%E7%9B%AE/C/"/>
+    
+    
+    <category term="C#" scheme="https://iambois.com/tags/C/"/>
+    
+    <category term="WPF" scheme="https://iambois.com/tags/WPF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建博客学习记录</title>
+    <link href="https://iambois.com/archives/672c3b43"/>
+    <id>https://iambois.com/archives/672c3b43</id>
+    <published>2021-06-05T23:56:54.000Z</published>
+    <updated>2022-10-07T08:28:39.935Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本博客使用hexo+next搭建，基于Github Page，域名解析使用腾讯云。在搭建过程中遇到了一些小小的问题，在此记录解决方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="个人博客" scheme="https://iambois.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Hexo博客" scheme="https://iambois.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://iambois.com/tags/Hexo/"/>
+    
+    <category term="博客" scheme="https://iambois.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>观影日志</title>
+    <link href="https://iambois.com/archives/cf3bca3b"/>
+    <id>https://iambois.com/archives/cf3bca3b</id>
+    <published>2021-06-02T00:52:57.000Z</published>
+    <updated>2022-10-07T08:28:39.936Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;截至今天，博客已记录电影14部，电视剧1部。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://iambois.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="影音" scheme="https://iambois.com/categories/%E7%94%9F%E6%B4%BB/%E5%BD%B1%E9%9F%B3/"/>
+    
+    
+    <category term="影音" scheme="https://iambois.com/tags/%E5%BD%B1%E9%9F%B3/"/>
+    
+    <category term="分享" scheme="https://iambois.com/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+</feed>
