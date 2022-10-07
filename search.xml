@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>无人机群网络管理系统设计与实现</title>
+    <url>/archives/5ba81285.html</url>
+    <content><![CDATA[<h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了一个无人机群网络管理系统，可以监控集群内各无人机的网络连接状态，观察无人机飞行参数，调整各无人机的网络设置信息。</p>
+<span id="more"></span>
+
+<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><p>本设计立足于解决无人机群应用时对于内部网络连接状态的监控，并可以实现实时监视无人机位置和姿态，同时还可以对单个无人机的网络信息进行设置。<br>本文开篇先介绍了关于无人机管理系统以及无人机网络的国内外研究现状，分析了相关发展趋势。然后简单介绍了无人机群网络管理系统开发时所涉及的相关技术和开发环境，本设计主要基于<code>WPF</code>（Windows 呈现基础），包括用于界面设计的<code>XAML </code>语言，用于实现后台逻辑的<code>C# </code>语言。数据库存储使用了<code>SQLite</code>。<br>文章的重点在于各个功能的设计实现上，主要包括：通过<code>GMap.NET</code> 技术加载电子地图，展现无人机群内各无人机的实时位置，进一步实现了无人机历史飞行轨迹绘制；通过在<code>WPF</code> 的<code>Canvas</code> 绘制二次贝塞尔曲线展示集群内无人机之间的网络拓扑；通过<code>Material Design In XAML </code>控件库，使得无人机网络设置信息展示更加美观，当用户更改设置后，信息将借由<code>Socket</code> 类发送给后台服务器以更新无人机设置；无人机飞行姿态的展示是通过虚拟仪表盘实现的，虚拟仪表盘展示了无人机的偏航角、俯仰角、滚动角和海拔；无人机历史飞行轨迹和姿态的展示，调用了数据库内存储的历史飞行信息，同时展示电子地图上的轨迹和实时姿态。<br>最后，通过对系统各模块的单独测试和系统整体调试，验证了系统设计的可行性和可靠性，满足了系统设计的需求，实现了预期效果。</p>
+<h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/imbois/Design-and-Implementation-of-UAV-Group-Network-Management-System">Design-and-Implementation-of-UAV-Group-Network-Management-System</a></p>
+<p>项目地址内<code>Code</code>文件夹是相关代码，<code>Paper</code>文件夹下是项目完成论文。</p>
+<blockquote>
+<p>这是我第一次自己动手写项目，虽然很简单，很粗糙，不过在完成项目的过程中还是学到很多。感谢很多博客作者和开源项目作者，本项目的完成很大程度上借鉴了他们的成果，写项目的时候忘记统计参考链接了，故未展现相关的链接。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>项目</category>
+        <category>C#</category>
+      </categories>
+      <tags>
+        <tag>C#</tag>
+        <tag>WPF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/archives/d87f7e0c.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>搭建博客学习记录</title>
+    <url>/archives/672c3b43.html</url>
+    <content><![CDATA[<p>本博客使用hexo+next搭建，基于Github Page，域名解析使用腾讯云。在搭建过程中遇到了一些小小的问题，在此记录解决方法。</p>
+<span id="more"></span>
+
+<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><h3 id="npm换源"><a href="#npm换源" class="headerlink" title="npm换源"></a>npm换源</h3><p>推荐使用换源工具<code>nrm</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g nrm   </span><br></pre></td></tr></table></figure>
+<p>查看源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm ls</span><br></pre></td></tr></table></figure>
+<p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/post/Snipaste_2021-06-06_00-05-20.png" alt="源列表"><br>添加源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm add 源的名称  https:&#x2F;&#x2F; 地址</span><br></pre></td></tr></table></figure>
+<p>删除源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm del 源的名字</span><br></pre></td></tr></table></figure>
+<p>切换源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm use 源的名字</span><br></pre></td></tr></table></figure>
+<p>测试源速度</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm test</span><br></pre></td></tr></table></figure>
+
+<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><h2 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h2>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>王道数据结构思维拓展</title>
+    <url>/archives/58b806b9.html</url>
+    <content><![CDATA[<blockquote>
+<p>本文记录我在学习王道考研教材《数据结构考研复习指导》时，所遇到的各章思考题。仅供参考。</p>
+</blockquote>
+<span id="more"></span>
+
+<h3 id="Ch1"><a href="#Ch1" class="headerlink" title="Ch1"></a>Ch1</h3><p><strong>题目</strong><br>求解斐波那契数列<br>$$<br>F(n) = \begin{cases}<br>1,                  &amp; \text{n = 0,1} \\<br>F(n-1) + F(n-2),    &amp; \text{n &gt; 1}<br>\end{cases}<br>$$<br>有两种常用的算法：递归算法和非递归算法。试分别分析两种算法的时间复杂度。（提示：请结合归纳总结中的两种方法进行解答。）</p>
+<p><strong>解答：</strong><br>两种常用算法：<br>1.递归算法，时间复杂度为O(2<sup>n</sup>)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &#x3D;&#x3D; 0)</span><br><span class="line">        return 0;</span><br><span class="line">    else if (n &#x3D;&#x3D; 1)</span><br><span class="line">        return 1;</span><br><span class="line">    else</span><br><span class="line">        return Fibonacci(n - 1) + Fibonacci(n-2);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>2.非递归算法，时间复杂度为O(n)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &lt;&#x3D; 2)</span><br><span class="line">        return 1;</span><br><span class="line">    else &#123;</span><br><span class="line">        long num1 &#x3D; 1;</span><br><span class="line">        long num2 &#x3D; 1;</span><br><span class="line">        for (int i &#x3D; 2;i &lt; n - 1;i++) &#123;</span><br><span class="line">            num2 &#x3D; num1 + num2;</span><br><span class="line">            num1 &#x3D; num2 - num1;</span><br><span class="line">        &#125;</span><br><span class="line">        return num1 + num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>参考博客</strong></p>
+<blockquote>
+<p><a href="https://www.cnblogs.com/abyss1114/p/7272657.html">斐波那契数列两种算法的时间复杂度</a><br><a href="https://www.cnblogs.com/python27/archive/2011/11/25/2261980.html">3种方法求解斐波那契数列</a><br><a href="https://zhuanlan.zhihu.com/p/56444434">三种时间复杂度算法求解斐波那契数列</a></p>
+</blockquote>
+<h3 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h3>]]></content>
+      <categories>
+        <category>王道论坛</category>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>王道数据结构练习题代码</title>
     <url>/archives/435383c0.html</url>
     <content><![CDATA[<blockquote>
@@ -49,150 +132,6 @@
       <tags>
         <tag>C/C++</tag>
         <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>王道数据结构课本代码</title>
-    <url>/archives/e63b79ef.html</url>
-    <content><![CDATA[<blockquote>
-<p>本文记录王道数据结构各章知识点部分的代码</p>
-</blockquote>
-<span id="more"></span>
-
-
-<h2 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h2><h3 id="2-1-线性表的定义和基本操作"><a href="#2-1-线性表的定义和基本操作" class="headerlink" title="2.1 线性表的定义和基本操作"></a>2.1 线性表的定义和基本操作</h3><h4 id="2-1-2-线性表的基本操作"><a href="#2-1-2-线性表的基本操作" class="headerlink" title="2.1.2 线性表的基本操作"></a>2.1.2 线性表的基本操作</h4><p><code>InitList(&amp;L)</code>：初始化表。构造一个空的线性表。<br><code>Length(L)</code>：求表长。返回线性表L的长度，即L中数据元素的个数。<br><code>LocateElem(L,e)</code>：按值查找操作。在表L中查找具有给定关键字值的元素。<br><code>GetElem(L,i)</code>：按位查找操作。获取表L中第i个位置的元素的值。<br><code>ListInsert(&amp;L,i,e)</code>：插入操作。在表L中的第i个位置上插入指定元素e。<br><code>ListDelete(&amp;L,i,&amp;e)</code>：删除操作。删除表L中第i个位置的元素，并用e返回删除元素的值。<br><code>PrintList(L)</code>：输出操作。按前后顺序输出线性表L的所有元素值。<br><code>Empty(L)</code>：判空操作。若L为空表，则返回true，否则返回false。<br><code>DestroyList(&amp;L)</code>：销毁操作。销毁线性表，并释放线性表L所占用的内存空间。</p>
-<blockquote>
-<p>“&amp;”表示C++语言中的引用调用，在C语言中采用指针也可达到同样的效果。</p>
-</blockquote>
-<h3 id="2-2-线性表的顺序表示"><a href="#2-2-线性表的顺序表示" class="headerlink" title="2.2 线性表的顺序表示"></a>2.2 线性表的顺序表示</h3><h4 id="2-2-1-顺序表的定义"><a href="#2-2-1-顺序表的定义" class="headerlink" title="2.2.1 顺序表的定义"></a>2.2.1 顺序表的定义</h4><p>假定线性表的元素类型为ElemType，则线性表的顺序存储类型描述为：<br>a.静态分配</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#define MaxSize 50              &#x2F;&#x2F;定义线性表的最大长度</span><br><span class="line">typedef struct&#123;</span><br><span class="line">  ElemType data[MaxSize];       &#x2F;&#x2F;顺序表的元素</span><br><span class="line">  int length;                   &#x2F;&#x2F;顺序表的当前长度</span><br><span class="line">&#125;SqList;                        &#x2F;&#x2F;顺序表的类型定义</span><br></pre></td></tr></table></figure>
-<p>b.动态分配</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#define InitSize 100            &#x2F;&#x2F;表长度的初始定义</span><br><span class="line">typedef struct&#123;     </span><br><span class="line">  ElemType *data;               &#x2F;&#x2F;指示动态分配数组的指针</span><br><span class="line">  int MaxSize,length;           &#x2F;&#x2F;数组的最大容量和当前个数</span><br><span class="line">&#125; SeqList;                      &#x2F;&#x2F;动态分配数组顺序表的类型定义</span><br></pre></td></tr></table></figure>
-<p>C的初始动态分配语句为：<br><code>L.data = (ElemType *)malloc(sizeof(ElemType)*InitSize);</code><br>C++的初始动态分配语句为：<br><code>L.data = new ElemType[InitSize];</code></p>
-<h4 id="2-2-2-顺序表上基本操作的实现"><a href="#2-2-2-顺序表上基本操作的实现" class="headerlink" title="2.2.2 顺序表上基本操作的实现"></a>2.2.2 顺序表上基本操作的实现</h4><p>(1)插入操作<br>在顺序表L的第i(1&lt;=i&lt;=L.length+1)个位置插入新元素e。平均时间复杂度为O(n)。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bool ListInsert(SqList &amp;L, int i, ElemType e) &#123;</span><br><span class="line">  if(i &lt; 1 || i &gt; L.length+1)             &#x2F;&#x2F;判断i的范围是否有效</span><br><span class="line">	  return false;</span><br><span class="line">  if(L.length &gt;&#x3D; MaxSize)                 &#x2F;&#x2F;当前存储空间已满，不能插入</span><br><span class="line">	  return false;</span><br><span class="line">  for(int j &#x3D; L.length; j &gt;&#x3D;i; j--)       &#x2F;&#x2F;将第i个元素及之后的元素后移</span><br><span class="line">	  L.data[j] &#x3D; L.data[j-1];</span><br><span class="line">  L.data[i-1] &#x3D; e;                        &#x2F;&#x2F;在位置i处放入e</span><br><span class="line">  L.length++;                             &#x2F;&#x2F;线性表长度加1</span><br><span class="line">  return true;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>(2)删除操作<br>删除顺序表L中第i(1&lt;=i&lt;=L.length)个位置的元素，用引用变量e返回。平均时间复杂度为O(n)。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bool ListDelete(SqList &amp;L, int i, ElemType &amp;e) &#123;</span><br><span class="line">  if(i &lt; 1 || i &gt; L.length)                 &#x2F;&#x2F;判断i的范围是否有效</span><br><span class="line">    return false;</span><br><span class="line">  e &#x3D; L.data[i-1];                          &#x2F;&#x2F;将被删除的元素赋值给e</span><br><span class="line">  for(int j &#x3D; i; j &lt; L.length; j++)         &#x2F;&#x2F;将第i个位置后的元素前移</span><br><span class="line">    L.data[j-1] &#x3D; L.data[j];</span><br><span class="line">  L.length--;                               &#x2F;&#x2F;线性表长度减1</span><br><span class="line">  return true;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>(3)按值查找(顺序查找)<br>在顺序表L中查找第一个元素值等于e的元素，并返回其位序。平均时间复杂度为O(n)。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int LocateElem(SqList L, ElemType e) &#123;</span><br><span class="line">  int i;</span><br><span class="line">  for(i &#x3D; 0; i &lt; L.length; i++)</span><br><span class="line">    if(L.data[i] &#x3D;&#x3D; e)</span><br><span class="line">      return i+1;                 &#x2F;&#x2F;下标为i的元素值等于e，返回其位序i+1</span><br><span class="line">  return 0;                       &#x2F;&#x2F;退出循环，说明查找失败。</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-3-线性表的链式表示"><a href="#2-3-线性表的链式表示" class="headerlink" title="2.3 线性表的链式表示"></a>2.3 线性表的链式表示</h3><h4 id="2-3-1-单链表的定义"><a href="#2-3-1-单链表的定义" class="headerlink" title="2.3.1 单链表的定义"></a>2.3.1 单链表的定义</h4><p>单链表中结点类型的描述如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">typedef struct LNode&#123;     &#x2F;&#x2F;定义单链表结点类型</span><br><span class="line">  ElemType data;          &#x2F;&#x2F;数据域</span><br><span class="line">  struct LNode *next;     &#x2F;&#x2F;指针域</span><br><span class="line">&#125;LNode, *LinkList;</span><br></pre></td></tr></table></figure>
-<h4 id="2-3-2-单链表上基本操作的实现"><a href="#2-3-2-单链表上基本操作的实现" class="headerlink" title="2.3.2 单链表上基本操作的实现"></a>2.3.2 单链表上基本操作的实现</h4><p><strong>1.采用头插法建立单链表</strong><br>该方法从一个空表开始，生成新结点，并将读取到的数据存放到新结点的数据域中，然后将新结点插入到当前链表的表头，即头结点之后。<br>算法如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LinkList List_HeadInsert(LinkList &amp;L) &#123;     &#x2F;&#x2F;逆向建立单链表</span><br><span class="line">  LNode *s; int x;</span><br><span class="line">  L &#x3D; (LinkList)malloc(sizeof(LNode));      &#x2F;&#x2F;创建头结点</span><br><span class="line">  L-&gt;next &#x3D;&#x3D; NULL;                          &#x2F;&#x2F;初始为空链表</span><br><span class="line">  scanf(&quot;%d&quot;, &amp;x);                          &#x2F;&#x2F;输入结点的值</span><br><span class="line">  while(x !&#x3D; 9999) &#123;                        &#x2F;&#x2F;输入9999表示结束</span><br><span class="line">    s &#x3D; (LNode*)malloc(sizeof(LNode));      &#x2F;&#x2F;创建新结点</span><br><span class="line">    s-&gt;data &#x3D; x;</span><br><span class="line">    s-&gt;next &#x3D; L-&gt;next;</span><br><span class="line">    L-&gt;next &#x3D; s;                            &#x2F;&#x2F;将新结点插入表中，L为头指针</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;x);</span><br><span class="line">  &#125;</span><br><span class="line">  return L;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>每个结点插入的时间是O(1)，设单链表长为n，则总时间复杂度为O(n)。<br><strong>2.采用尾插法建立单链表</strong><br>该方法将新结点插入到当前链表的表尾，为此必须增加一个尾指针r，使其始终指向当前链表的尾结点。<br>算法如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LinkList List_TailInsert(LinkList &amp;L) &#123;   &#x2F;&#x2F;正向建立单链表</span><br><span class="line">  int x;                                  &#x2F;&#x2F;设元素类型为整型</span><br><span class="line">  L &#x3D; (LinkList)malloc(sizeof(LNode));</span><br><span class="line">  LNode *s, *r &#x3D; L;                       &#x2F;&#x2F;r为表尾指针</span><br><span class="line">  scanf(&quot;%d&quot;, &amp;x);                        &#x2F;&#x2F;输入结点的值</span><br><span class="line">  while(x !&#x3D; 9999) &#123;                      &#x2F;&#x2F;输入9999表示结束</span><br><span class="line">    s &#x3D; (LNode *)malloc(sizeof(LNode));</span><br><span class="line">    s-&gt;data &#x3D; x;</span><br><span class="line">    r-&gt;next &#x3D; s;</span><br><span class="line">    r &#x3D; s;                                &#x2F;&#x2F;r指向新的表尾结点</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;x);</span><br><span class="line">  &#125;</span><br><span class="line">  r-&gt;next &#x3D; NULL;                         &#x2F;&#x2F;尾结点指针置空</span><br><span class="line">  return L;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>因为附设了一个指向表尾结点的指针，故时间复杂度和头插法的相同。<br><strong>3.按序号查找结点值</strong><br>在单链表中从第一个结点出发，顺指针next域逐个往下搜索，直到找到第i个结点为止，否则返回最后一个结点指针域NULL。<br>算法如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LNode *GetElem(LinkList L, int i) &#123;</span><br><span class="line">  int j &#x3D; 1;                      &#x2F;&#x2F;计数，初始为1</span><br><span class="line">  LNode *p &#x3D; L-&gt;next;             &#x2F;&#x2F;头结点指针赋给p</span><br><span class="line">  if(i &#x3D;&#x3D; 0)</span><br><span class="line">    return L;                     &#x2F;&#x2F;若i等于0，则返回头结点</span><br><span class="line">  if(i &lt; 1)</span><br><span class="line">    return NULL;                  &#x2F;&#x2F;若i无效，则返回NULL</span><br><span class="line">  while(p &amp;&amp; j &lt; i) &#123;             &#x2F;&#x2F;从第1个结点开始找，查找第i个结点</span><br><span class="line">    p &#x3D; p-&gt;next;</span><br><span class="line">    j++;</span><br><span class="line">  &#125;</span><br><span class="line">  return p;                       &#x2F;&#x2F;返回第i个结点的指针，若i大于表长，则返回NULL</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>时间复杂度为O(n)。<br><strong>4.按值查找表结点</strong><br>从单链表的第一个结点开始，由前往后依次比较表中各结点数据域的值，若某结点数据域的值等于给定值e，则返回该结点的指针；若整个单链表中没有这样的结点，则返回NULL。<br>算法如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LNode *LocateElem(LinkList L, ElemType e) &#123;</span><br><span class="line">  LNode *p &#x3D; L-&gt;next;</span><br><span class="line">  while(p !&#x3D; NULL &amp;&amp; p-&gt;data !&#x3D; e)        &#x2F;&#x2F;从第1个结点开始查找data域为e的结点</span><br><span class="line">    p &#x3D; p-&gt;next;</span><br><span class="line">  return p;                               &#x2F;&#x2F;找到后返回该结点指针，否则返回NULL</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>时间复杂度为O(n)。<br><strong>5.插入结点操作</strong><br>插入结点操作将值为x的新结点插入到单链表的第i个位置上。先检查插入位置的合法性，然后找到待插入位置的前驱结点，即第i-1个结点，再在其后插入新结点。<br>代码片段如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">p &#x3D; GetElem(L, i-1);            &#x2F;&#x2F;查找插入位置的前驱结点</span><br><span class="line">s-&gt;next &#x3D; p-&gt;next;</span><br><span class="line">p-&gt;next &#x3D; s;</span><br></pre></td></tr></table></figure>
-<p>本算法主要的时间开销在于查找第i-1个元素，时间复杂度为O(n)。若在给定的结点后面插入新结点，则时间复杂度仅为O(1)。</p>
-<p>可采用另一种方式将前插操作转化为后插操作来实现，设待插入结点为<code>*s</code>，将<code>*s</code>插入到<code>*p</code>的前面。我们仍然将<code>*s</code>插入到<code>*p</code>的后面，然后将<code>p-&gt;data</code>与<code>s-&gt;data</code>交换，这样既满足了逻辑关系，又能使得时间复杂度为O(1)。算法的代码片段如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;将*s结点插入到*p之前的主要代码片段</span><br><span class="line">s-&gt;next &#x3D; p-&gt;next;              &#x2F;&#x2F;修改指针域，不能颠倒</span><br><span class="line">p-&gt;next &#x3D; s;</span><br><span class="line">temp &#x3D; p-&gt;data;                 &#x2F;&#x2F;交换数据域部分</span><br><span class="line">p-&gt;data &#x3D; s-&gt;data;</span><br><span class="line">s-&gt;data &#x3D; temp;</span><br></pre></td></tr></table></figure>
-
-<p><strong>6.删除结点操作</strong><br>删除结点操作是将单链表的第i个结点删除。先检查删除位置的合法性，后查找表中第i-1个结点，即被删结点的前驱结点，再将其删除。<br>代码片段如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">p &#x3D; GetElem(L, i-1);                &#x2F;&#x2F;查找删除位置的前驱结点</span><br><span class="line">q &#x3D; p-&gt;next;                        &#x2F;&#x2F;令q指向被删除结点</span><br><span class="line">p-&gt;next &#x3D; q-&gt;next;                  &#x2F;&#x2F;将*q结点从链中“断开”</span><br><span class="line">free(q);                            &#x2F;&#x2F;释放结点的存储空间</span><br></pre></td></tr></table></figure>
-<p>和插入算法一样，该算法的主要时间夜耗费在查找操作上，时间复杂度为O(n)。</p>
-<p>其实，删除结点<code>*p</code>的操作可用删除<code>*p</code>的后继结点操作来实现，实质就是将其后继结点的值赋予其自身，然后删除后继结点，也能使得时间复杂度为O(1)。<br>实现上述操作的代码片段如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">q &#x3D; p-&gt;next;                      &#x2F;&#x2F;令q指向*p的后继结点</span><br><span class="line">p-&gt;data &#x3D; p-&gt;next-&gt;data;          &#x2F;&#x2F;和后继结点交换数据域</span><br><span class="line">p-&gt;next &#x3D; q-&gt;next;                &#x2F;&#x2F;将*q结点从链中“断开”</span><br><span class="line">free(q);                          &#x2F;&#x2F;释放后继结点的存储空间</span><br></pre></td></tr></table></figure>
-<p><strong>7.求表长操作</strong><br>求表长操作就是计算单链表中数据结点（不含头结点）的个数，需要从第一个结点开始顺序依次访问表中的每个结点，为此需要设置一个计数器变量，每访问一个结点，计数器加1，知道访问到空结点为止。算法的时间复杂度为O(n)。</p>
-<h4 id="2-3-3-双链表"><a href="#2-3-3-双链表" class="headerlink" title="2.3.3 双链表"></a>2.3.3 双链表</h4><p>双链表中结点类型的描述如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">typedef struct DNode&#123;                 &#x2F;&#x2F;定义双链表结点类型</span><br><span class="line">  ElemType data;                      &#x2F;&#x2F;数据域</span><br><span class="line">  struct DNode *prior, *next;         &#x2F;&#x2F;前驱和后继指针</span><br><span class="line">&#125;DNode, *DLinklist;</span><br></pre></td></tr></table></figure>
-<p>插入、删除操作的时间复杂度仅为O(1)。<br>插入操作的代码片段如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">s-&gt;next &#x3D; p-&gt;next;                  &#x2F;&#x2F;将结点*s插入到结点*p之后</span><br><span class="line">p-&gt;next-&gt;prior &#x3D; s;</span><br><span class="line">s-&gt;prior &#x3D; p;</span><br><span class="line">p-&gt;next &#x3D; s;</span><br></pre></td></tr></table></figure>
-<p>删除操作的代码片段如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">p-&gt;next &#x3D; q-&gt;next;                  &#x2F;&#x2F;删除*p后的*q</span><br><span class="line">q-&gt;next-&gt;prior &#x3D; p;</span><br><span class="line">free(q);                            &#x2F;&#x2F;释放结点空间</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-3-5-静态链表"><a href="#2-3-5-静态链表" class="headerlink" title="2.3.5 静态链表"></a>2.3.5 静态链表</h4><p>静态链表结构类型的描述如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#define MaxSize 50                    &#x2F;&#x2F;静态链表的最大长度</span><br><span class="line">typedef struct&#123;                       &#x2F;&#x2F;静态链表结构类型的定义</span><br><span class="line">  ElemType data;                      &#x2F;&#x2F;存储数据元素</span><br><span class="line">  int next;                           &#x2F;&#x2F;下一个元素的数组下标</span><br><span class="line">&#125;SLinkList[MaxSize];</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>王道论坛</category>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>王道数据结构思维拓展</title>
-    <url>/archives/58b806b9.html</url>
-    <content><![CDATA[<blockquote>
-<p>本文记录我在学习王道考研教材《数据结构考研复习指导》时，所遇到的各章思考题。仅供参考。</p>
-</blockquote>
-<span id="more"></span>
-
-<h3 id="Ch1"><a href="#Ch1" class="headerlink" title="Ch1"></a>Ch1</h3><p><strong>题目</strong><br>求解斐波那契数列<br>$$<br>F(n) = \begin{cases}<br>1,                  &amp; \text{n = 0,1} \\<br>F(n-1) + F(n-2),    &amp; \text{n &gt; 1}<br>\end{cases}<br>$$<br>有两种常用的算法：递归算法和非递归算法。试分别分析两种算法的时间复杂度。（提示：请结合归纳总结中的两种方法进行解答。）</p>
-<p><strong>解答：</strong><br>两种常用算法：<br>1.递归算法，时间复杂度为O(2<sup>n</sup>)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &#x3D;&#x3D; 0)</span><br><span class="line">        return 0;</span><br><span class="line">    else if (n &#x3D;&#x3D; 1)</span><br><span class="line">        return 1;</span><br><span class="line">    else</span><br><span class="line">        return Fibonacci(n - 1) + Fibonacci(n-2);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>2.非递归算法，时间复杂度为O(n)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">long Fibonacci(int n) &#123;</span><br><span class="line">    if (n &lt;&#x3D; 2)</span><br><span class="line">        return 1;</span><br><span class="line">    else &#123;</span><br><span class="line">        long num1 &#x3D; 1;</span><br><span class="line">        long num2 &#x3D; 1;</span><br><span class="line">        for (int i &#x3D; 2;i &lt; n - 1;i++) &#123;</span><br><span class="line">            num2 &#x3D; num1 + num2;</span><br><span class="line">            num1 &#x3D; num2 - num1;</span><br><span class="line">        &#125;</span><br><span class="line">        return num1 + num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Enter an integer number:&quot; &lt;&lt; endl;</span><br><span class="line">    int N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    cout &lt;&lt; Fibonacci(N) &lt;&lt; endl;</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>参考博客</strong></p>
-<blockquote>
-<p><a href="https://www.cnblogs.com/abyss1114/p/7272657.html">斐波那契数列两种算法的时间复杂度</a><br><a href="https://www.cnblogs.com/python27/archive/2011/11/25/2261980.html">3种方法求解斐波那契数列</a><br><a href="https://zhuanlan.zhihu.com/p/56444434">三种时间复杂度算法求解斐波那契数列</a></p>
-</blockquote>
-<h3 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h3>]]></content>
-      <categories>
-        <category>王道论坛</category>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无人机群网络管理系统设计与实现</title>
-    <url>/archives/5ba81285.html</url>
-    <content><![CDATA[<h2 id="关于这个项目"><a href="#关于这个项目" class="headerlink" title="关于这个项目"></a>关于这个项目</h2><p>此项目为我本科阶段的毕业设计，主要内容是设计实现了一个无人机群网络管理系统，可以监控集群内各无人机的网络连接状态，观察无人机飞行参数，调整各无人机的网络设置信息。</p>
-<span id="more"></span>
-
-<h2 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h2><p>本设计立足于解决无人机群应用时对于内部网络连接状态的监控，并可以实现实时监视无人机位置和姿态，同时还可以对单个无人机的网络信息进行设置。<br>本文开篇先介绍了关于无人机管理系统以及无人机网络的国内外研究现状，分析了相关发展趋势。然后简单介绍了无人机群网络管理系统开发时所涉及的相关技术和开发环境，本设计主要基于<code>WPF</code>（Windows 呈现基础），包括用于界面设计的<code>XAML </code>语言，用于实现后台逻辑的<code>C# </code>语言。数据库存储使用了<code>SQLite</code>。<br>文章的重点在于各个功能的设计实现上，主要包括：通过<code>GMap.NET</code> 技术加载电子地图，展现无人机群内各无人机的实时位置，进一步实现了无人机历史飞行轨迹绘制；通过在<code>WPF</code> 的<code>Canvas</code> 绘制二次贝塞尔曲线展示集群内无人机之间的网络拓扑；通过<code>Material Design In XAML </code>控件库，使得无人机网络设置信息展示更加美观，当用户更改设置后，信息将借由<code>Socket</code> 类发送给后台服务器以更新无人机设置；无人机飞行姿态的展示是通过虚拟仪表盘实现的，虚拟仪表盘展示了无人机的偏航角、俯仰角、滚动角和海拔；无人机历史飞行轨迹和姿态的展示，调用了数据库内存储的历史飞行信息，同时展示电子地图上的轨迹和实时姿态。<br>最后，通过对系统各模块的单独测试和系统整体调试，验证了系统设计的可行性和可靠性，满足了系统设计的需求，实现了预期效果。</p>
-<h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/imbois/Design-and-Implementation-of-UAV-Group-Network-Management-System">Design-and-Implementation-of-UAV-Group-Network-Management-System</a></p>
-<p>项目地址内<code>Code</code>文件夹是相关代码，<code>Paper</code>文件夹下是项目完成论文。</p>
-<blockquote>
-<p>这是我第一次自己动手写项目，虽然很简单，很粗糙，不过在完成项目的过程中还是学到很多。感谢很多博客作者和开源项目作者，本项目的完成很大程度上借鉴了他们的成果，写项目的时候忘记统计参考链接了，故未展现相关的链接。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>项目</category>
-        <category>C#</category>
-      </categories>
-      <tags>
-        <tag>C#</tag>
-        <tag>WPF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建博客学习记录</title>
-    <url>/archives/672c3b43.html</url>
-    <content><![CDATA[<p>本博客使用hexo+next搭建，基于Github Page，域名解析使用腾讯云。在搭建过程中遇到了一些小小的问题，在此记录解决方法。</p>
-<span id="more"></span>
-
-<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><h3 id="npm换源"><a href="#npm换源" class="headerlink" title="npm换源"></a>npm换源</h3><p>推荐使用换源工具<code>nrm</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g nrm   </span><br></pre></td></tr></table></figure>
-<p>查看源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm ls</span><br></pre></td></tr></table></figure>
-<p><img src="https://blogimbois-1256390899.cos.ap-beijing.myqcloud.com/post/Snipaste_2021-06-06_00-05-20.png" alt="源列表"><br>添加源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm add 源的名称  https:&#x2F;&#x2F; 地址</span><br></pre></td></tr></table></figure>
-<p>删除源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm del 源的名字</span><br></pre></td></tr></table></figure>
-<p>切换源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm use 源的名字</span><br></pre></td></tr></table></figure>
-<p>测试源速度</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nrm test</span><br></pre></td></tr></table></figure>
-
-<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><h2 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h2>]]></content>
-      <categories>
-        <category>个人博客</category>
-        <category>Hexo博客</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -269,6 +208,72 @@
       <tags>
         <tag>影音</tag>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>王道数据结构课本代码</title>
+    <url>/archives/e63b79ef.html</url>
+    <content><![CDATA[<blockquote>
+<p>本文记录王道数据结构各章知识点部分的代码</p>
+</blockquote>
+<span id="more"></span>
+
+
+<h2 id="Ch2"><a href="#Ch2" class="headerlink" title="Ch2"></a>Ch2</h2><h3 id="2-1-线性表的定义和基本操作"><a href="#2-1-线性表的定义和基本操作" class="headerlink" title="2.1 线性表的定义和基本操作"></a>2.1 线性表的定义和基本操作</h3><h4 id="2-1-2-线性表的基本操作"><a href="#2-1-2-线性表的基本操作" class="headerlink" title="2.1.2 线性表的基本操作"></a>2.1.2 线性表的基本操作</h4><p><code>InitList(&amp;L)</code>：初始化表。构造一个空的线性表。<br><code>Length(L)</code>：求表长。返回线性表L的长度，即L中数据元素的个数。<br><code>LocateElem(L,e)</code>：按值查找操作。在表L中查找具有给定关键字值的元素。<br><code>GetElem(L,i)</code>：按位查找操作。获取表L中第i个位置的元素的值。<br><code>ListInsert(&amp;L,i,e)</code>：插入操作。在表L中的第i个位置上插入指定元素e。<br><code>ListDelete(&amp;L,i,&amp;e)</code>：删除操作。删除表L中第i个位置的元素，并用e返回删除元素的值。<br><code>PrintList(L)</code>：输出操作。按前后顺序输出线性表L的所有元素值。<br><code>Empty(L)</code>：判空操作。若L为空表，则返回true，否则返回false。<br><code>DestroyList(&amp;L)</code>：销毁操作。销毁线性表，并释放线性表L所占用的内存空间。</p>
+<blockquote>
+<p>“&amp;”表示C++语言中的引用调用，在C语言中采用指针也可达到同样的效果。</p>
+</blockquote>
+<h3 id="2-2-线性表的顺序表示"><a href="#2-2-线性表的顺序表示" class="headerlink" title="2.2 线性表的顺序表示"></a>2.2 线性表的顺序表示</h3><h4 id="2-2-1-顺序表的定义"><a href="#2-2-1-顺序表的定义" class="headerlink" title="2.2.1 顺序表的定义"></a>2.2.1 顺序表的定义</h4><p>假定线性表的元素类型为ElemType，则线性表的顺序存储类型描述为：<br>a.静态分配</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#define MaxSize 50              &#x2F;&#x2F;定义线性表的最大长度</span><br><span class="line">typedef struct&#123;</span><br><span class="line">  ElemType data[MaxSize];       &#x2F;&#x2F;顺序表的元素</span><br><span class="line">  int length;                   &#x2F;&#x2F;顺序表的当前长度</span><br><span class="line">&#125;SqList;                        &#x2F;&#x2F;顺序表的类型定义</span><br></pre></td></tr></table></figure>
+<p>b.动态分配</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#define InitSize 100            &#x2F;&#x2F;表长度的初始定义</span><br><span class="line">typedef struct&#123;     </span><br><span class="line">  ElemType *data;               &#x2F;&#x2F;指示动态分配数组的指针</span><br><span class="line">  int MaxSize,length;           &#x2F;&#x2F;数组的最大容量和当前个数</span><br><span class="line">&#125; SeqList;                      &#x2F;&#x2F;动态分配数组顺序表的类型定义</span><br></pre></td></tr></table></figure>
+<p>C的初始动态分配语句为：<br><code>L.data = (ElemType *)malloc(sizeof(ElemType)*InitSize);</code><br>C++的初始动态分配语句为：<br><code>L.data = new ElemType[InitSize];</code></p>
+<h4 id="2-2-2-顺序表上基本操作的实现"><a href="#2-2-2-顺序表上基本操作的实现" class="headerlink" title="2.2.2 顺序表上基本操作的实现"></a>2.2.2 顺序表上基本操作的实现</h4><p>(1)插入操作<br>在顺序表L的第i(1&lt;=i&lt;=L.length+1)个位置插入新元素e。平均时间复杂度为O(n)。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bool ListInsert(SqList &amp;L, int i, ElemType e) &#123;</span><br><span class="line">  if(i &lt; 1 || i &gt; L.length+1)             &#x2F;&#x2F;判断i的范围是否有效</span><br><span class="line">	  return false;</span><br><span class="line">  if(L.length &gt;&#x3D; MaxSize)                 &#x2F;&#x2F;当前存储空间已满，不能插入</span><br><span class="line">	  return false;</span><br><span class="line">  for(int j &#x3D; L.length; j &gt;&#x3D;i; j--)       &#x2F;&#x2F;将第i个元素及之后的元素后移</span><br><span class="line">	  L.data[j] &#x3D; L.data[j-1];</span><br><span class="line">  L.data[i-1] &#x3D; e;                        &#x2F;&#x2F;在位置i处放入e</span><br><span class="line">  L.length++;                             &#x2F;&#x2F;线性表长度加1</span><br><span class="line">  return true;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>(2)删除操作<br>删除顺序表L中第i(1&lt;=i&lt;=L.length)个位置的元素，用引用变量e返回。平均时间复杂度为O(n)。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bool ListDelete(SqList &amp;L, int i, ElemType &amp;e) &#123;</span><br><span class="line">  if(i &lt; 1 || i &gt; L.length)                 &#x2F;&#x2F;判断i的范围是否有效</span><br><span class="line">    return false;</span><br><span class="line">  e &#x3D; L.data[i-1];                          &#x2F;&#x2F;将被删除的元素赋值给e</span><br><span class="line">  for(int j &#x3D; i; j &lt; L.length; j++)         &#x2F;&#x2F;将第i个位置后的元素前移</span><br><span class="line">    L.data[j-1] &#x3D; L.data[j];</span><br><span class="line">  L.length--;                               &#x2F;&#x2F;线性表长度减1</span><br><span class="line">  return true;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>(3)按值查找(顺序查找)<br>在顺序表L中查找第一个元素值等于e的元素，并返回其位序。平均时间复杂度为O(n)。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int LocateElem(SqList L, ElemType e) &#123;</span><br><span class="line">  int i;</span><br><span class="line">  for(i &#x3D; 0; i &lt; L.length; i++)</span><br><span class="line">    if(L.data[i] &#x3D;&#x3D; e)</span><br><span class="line">      return i+1;                 &#x2F;&#x2F;下标为i的元素值等于e，返回其位序i+1</span><br><span class="line">  return 0;                       &#x2F;&#x2F;退出循环，说明查找失败。</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-3-线性表的链式表示"><a href="#2-3-线性表的链式表示" class="headerlink" title="2.3 线性表的链式表示"></a>2.3 线性表的链式表示</h3><h4 id="2-3-1-单链表的定义"><a href="#2-3-1-单链表的定义" class="headerlink" title="2.3.1 单链表的定义"></a>2.3.1 单链表的定义</h4><p>单链表中结点类型的描述如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">typedef struct LNode&#123;     &#x2F;&#x2F;定义单链表结点类型</span><br><span class="line">  ElemType data;          &#x2F;&#x2F;数据域</span><br><span class="line">  struct LNode *next;     &#x2F;&#x2F;指针域</span><br><span class="line">&#125;LNode, *LinkList;</span><br></pre></td></tr></table></figure>
+<h4 id="2-3-2-单链表上基本操作的实现"><a href="#2-3-2-单链表上基本操作的实现" class="headerlink" title="2.3.2 单链表上基本操作的实现"></a>2.3.2 单链表上基本操作的实现</h4><p><strong>1.采用头插法建立单链表</strong><br>该方法从一个空表开始，生成新结点，并将读取到的数据存放到新结点的数据域中，然后将新结点插入到当前链表的表头，即头结点之后。<br>算法如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LinkList List_HeadInsert(LinkList &amp;L) &#123;     &#x2F;&#x2F;逆向建立单链表</span><br><span class="line">  LNode *s; int x;</span><br><span class="line">  L &#x3D; (LinkList)malloc(sizeof(LNode));      &#x2F;&#x2F;创建头结点</span><br><span class="line">  L-&gt;next &#x3D;&#x3D; NULL;                          &#x2F;&#x2F;初始为空链表</span><br><span class="line">  scanf(&quot;%d&quot;, &amp;x);                          &#x2F;&#x2F;输入结点的值</span><br><span class="line">  while(x !&#x3D; 9999) &#123;                        &#x2F;&#x2F;输入9999表示结束</span><br><span class="line">    s &#x3D; (LNode*)malloc(sizeof(LNode));      &#x2F;&#x2F;创建新结点</span><br><span class="line">    s-&gt;data &#x3D; x;</span><br><span class="line">    s-&gt;next &#x3D; L-&gt;next;</span><br><span class="line">    L-&gt;next &#x3D; s;                            &#x2F;&#x2F;将新结点插入表中，L为头指针</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;x);</span><br><span class="line">  &#125;</span><br><span class="line">  return L;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>每个结点插入的时间是O(1)，设单链表长为n，则总时间复杂度为O(n)。<br><strong>2.采用尾插法建立单链表</strong><br>该方法将新结点插入到当前链表的表尾，为此必须增加一个尾指针r，使其始终指向当前链表的尾结点。<br>算法如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LinkList List_TailInsert(LinkList &amp;L) &#123;   &#x2F;&#x2F;正向建立单链表</span><br><span class="line">  int x;                                  &#x2F;&#x2F;设元素类型为整型</span><br><span class="line">  L &#x3D; (LinkList)malloc(sizeof(LNode));</span><br><span class="line">  LNode *s, *r &#x3D; L;                       &#x2F;&#x2F;r为表尾指针</span><br><span class="line">  scanf(&quot;%d&quot;, &amp;x);                        &#x2F;&#x2F;输入结点的值</span><br><span class="line">  while(x !&#x3D; 9999) &#123;                      &#x2F;&#x2F;输入9999表示结束</span><br><span class="line">    s &#x3D; (LNode *)malloc(sizeof(LNode));</span><br><span class="line">    s-&gt;data &#x3D; x;</span><br><span class="line">    r-&gt;next &#x3D; s;</span><br><span class="line">    r &#x3D; s;                                &#x2F;&#x2F;r指向新的表尾结点</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;x);</span><br><span class="line">  &#125;</span><br><span class="line">  r-&gt;next &#x3D; NULL;                         &#x2F;&#x2F;尾结点指针置空</span><br><span class="line">  return L;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>因为附设了一个指向表尾结点的指针，故时间复杂度和头插法的相同。<br><strong>3.按序号查找结点值</strong><br>在单链表中从第一个结点出发，顺指针next域逐个往下搜索，直到找到第i个结点为止，否则返回最后一个结点指针域NULL。<br>算法如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LNode *GetElem(LinkList L, int i) &#123;</span><br><span class="line">  int j &#x3D; 1;                      &#x2F;&#x2F;计数，初始为1</span><br><span class="line">  LNode *p &#x3D; L-&gt;next;             &#x2F;&#x2F;头结点指针赋给p</span><br><span class="line">  if(i &#x3D;&#x3D; 0)</span><br><span class="line">    return L;                     &#x2F;&#x2F;若i等于0，则返回头结点</span><br><span class="line">  if(i &lt; 1)</span><br><span class="line">    return NULL;                  &#x2F;&#x2F;若i无效，则返回NULL</span><br><span class="line">  while(p &amp;&amp; j &lt; i) &#123;             &#x2F;&#x2F;从第1个结点开始找，查找第i个结点</span><br><span class="line">    p &#x3D; p-&gt;next;</span><br><span class="line">    j++;</span><br><span class="line">  &#125;</span><br><span class="line">  return p;                       &#x2F;&#x2F;返回第i个结点的指针，若i大于表长，则返回NULL</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>时间复杂度为O(n)。<br><strong>4.按值查找表结点</strong><br>从单链表的第一个结点开始，由前往后依次比较表中各结点数据域的值，若某结点数据域的值等于给定值e，则返回该结点的指针；若整个单链表中没有这样的结点，则返回NULL。<br>算法如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LNode *LocateElem(LinkList L, ElemType e) &#123;</span><br><span class="line">  LNode *p &#x3D; L-&gt;next;</span><br><span class="line">  while(p !&#x3D; NULL &amp;&amp; p-&gt;data !&#x3D; e)        &#x2F;&#x2F;从第1个结点开始查找data域为e的结点</span><br><span class="line">    p &#x3D; p-&gt;next;</span><br><span class="line">  return p;                               &#x2F;&#x2F;找到后返回该结点指针，否则返回NULL</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>时间复杂度为O(n)。<br><strong>5.插入结点操作</strong><br>插入结点操作将值为x的新结点插入到单链表的第i个位置上。先检查插入位置的合法性，然后找到待插入位置的前驱结点，即第i-1个结点，再在其后插入新结点。<br>代码片段如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">p &#x3D; GetElem(L, i-1);            &#x2F;&#x2F;查找插入位置的前驱结点</span><br><span class="line">s-&gt;next &#x3D; p-&gt;next;</span><br><span class="line">p-&gt;next &#x3D; s;</span><br></pre></td></tr></table></figure>
+<p>本算法主要的时间开销在于查找第i-1个元素，时间复杂度为O(n)。若在给定的结点后面插入新结点，则时间复杂度仅为O(1)。</p>
+<p>可采用另一种方式将前插操作转化为后插操作来实现，设待插入结点为<code>*s</code>，将<code>*s</code>插入到<code>*p</code>的前面。我们仍然将<code>*s</code>插入到<code>*p</code>的后面，然后将<code>p-&gt;data</code>与<code>s-&gt;data</code>交换，这样既满足了逻辑关系，又能使得时间复杂度为O(1)。算法的代码片段如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;将*s结点插入到*p之前的主要代码片段</span><br><span class="line">s-&gt;next &#x3D; p-&gt;next;              &#x2F;&#x2F;修改指针域，不能颠倒</span><br><span class="line">p-&gt;next &#x3D; s;</span><br><span class="line">temp &#x3D; p-&gt;data;                 &#x2F;&#x2F;交换数据域部分</span><br><span class="line">p-&gt;data &#x3D; s-&gt;data;</span><br><span class="line">s-&gt;data &#x3D; temp;</span><br></pre></td></tr></table></figure>
+
+<p><strong>6.删除结点操作</strong><br>删除结点操作是将单链表的第i个结点删除。先检查删除位置的合法性，后查找表中第i-1个结点，即被删结点的前驱结点，再将其删除。<br>代码片段如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">p &#x3D; GetElem(L, i-1);                &#x2F;&#x2F;查找删除位置的前驱结点</span><br><span class="line">q &#x3D; p-&gt;next;                        &#x2F;&#x2F;令q指向被删除结点</span><br><span class="line">p-&gt;next &#x3D; q-&gt;next;                  &#x2F;&#x2F;将*q结点从链中“断开”</span><br><span class="line">free(q);                            &#x2F;&#x2F;释放结点的存储空间</span><br></pre></td></tr></table></figure>
+<p>和插入算法一样，该算法的主要时间夜耗费在查找操作上，时间复杂度为O(n)。</p>
+<p>其实，删除结点<code>*p</code>的操作可用删除<code>*p</code>的后继结点操作来实现，实质就是将其后继结点的值赋予其自身，然后删除后继结点，也能使得时间复杂度为O(1)。<br>实现上述操作的代码片段如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">q &#x3D; p-&gt;next;                      &#x2F;&#x2F;令q指向*p的后继结点</span><br><span class="line">p-&gt;data &#x3D; p-&gt;next-&gt;data;          &#x2F;&#x2F;和后继结点交换数据域</span><br><span class="line">p-&gt;next &#x3D; q-&gt;next;                &#x2F;&#x2F;将*q结点从链中“断开”</span><br><span class="line">free(q);                          &#x2F;&#x2F;释放后继结点的存储空间</span><br></pre></td></tr></table></figure>
+<p><strong>7.求表长操作</strong><br>求表长操作就是计算单链表中数据结点（不含头结点）的个数，需要从第一个结点开始顺序依次访问表中的每个结点，为此需要设置一个计数器变量，每访问一个结点，计数器加1，知道访问到空结点为止。算法的时间复杂度为O(n)。</p>
+<h4 id="2-3-3-双链表"><a href="#2-3-3-双链表" class="headerlink" title="2.3.3 双链表"></a>2.3.3 双链表</h4><p>双链表中结点类型的描述如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">typedef struct DNode&#123;                 &#x2F;&#x2F;定义双链表结点类型</span><br><span class="line">  ElemType data;                      &#x2F;&#x2F;数据域</span><br><span class="line">  struct DNode *prior, *next;         &#x2F;&#x2F;前驱和后继指针</span><br><span class="line">&#125;DNode, *DLinklist;</span><br></pre></td></tr></table></figure>
+<p>插入、删除操作的时间复杂度仅为O(1)。<br>插入操作的代码片段如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">s-&gt;next &#x3D; p-&gt;next;                  &#x2F;&#x2F;将结点*s插入到结点*p之后</span><br><span class="line">p-&gt;next-&gt;prior &#x3D; s;</span><br><span class="line">s-&gt;prior &#x3D; p;</span><br><span class="line">p-&gt;next &#x3D; s;</span><br></pre></td></tr></table></figure>
+<p>删除操作的代码片段如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">p-&gt;next &#x3D; q-&gt;next;                  &#x2F;&#x2F;删除*p后的*q</span><br><span class="line">q-&gt;next-&gt;prior &#x3D; p;</span><br><span class="line">free(q);                            &#x2F;&#x2F;释放结点空间</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-3-5-静态链表"><a href="#2-3-5-静态链表" class="headerlink" title="2.3.5 静态链表"></a>2.3.5 静态链表</h4><p>静态链表结构类型的描述如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#define MaxSize 50                    &#x2F;&#x2F;静态链表的最大长度</span><br><span class="line">typedef struct&#123;                       &#x2F;&#x2F;静态链表结构类型的定义</span><br><span class="line">  ElemType data;                      &#x2F;&#x2F;存储数据元素</span><br><span class="line">  int next;                           &#x2F;&#x2F;下一个元素的数组下标</span><br><span class="line">&#125;SLinkList[MaxSize];</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>王道论坛</category>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
 </search>
